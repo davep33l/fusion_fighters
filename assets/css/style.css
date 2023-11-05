@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header Styles */
 header {
     background-color: lightseagreen;
@@ -13,6 +20,8 @@ header {
 /* Main Styles */
 main {
     background-color: lightyellow;
+    /* Make the main element take up surplus space and push the footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer Styles */
