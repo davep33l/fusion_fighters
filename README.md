@@ -102,6 +102,9 @@ I chose a slightly off white as my light colour.
 
 ### Images
 
+The Favicon was obtained from [icon8s.com](https://icons8.com/icon/KYBCho8WVA7Z/kimono) and I used [favicon.io](https://favicon.io/favicon-converter/) to generate the size specific favicons. 
+
+
 ## Accessibility
 
 ## Technologies Used
