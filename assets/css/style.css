@@ -67,6 +67,10 @@ h1 {
 
 /* Navbar styles and dropdown toggle */
 
+.nav-toggle-label {
+    color: var(--clr-light);
+}
+
 nav {
     position: absolute;
     background-color: var(--clr-dark);
