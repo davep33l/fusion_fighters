@@ -31,7 +31,20 @@ body {
     color: var(--clr-dark);
 }
 
-h3 {
+#benefits,
+#about,
+#reviews {
+    min-height: 65vh;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+#styles,
+#instructors,
+#times,
+#contact {
+    min-height: 65vh;
+    background-color: var(--clr-light);
     color: var(--clr-dark);
 }
 
