@@ -136,7 +136,18 @@ footer {
         position: relative;
         display: block;
         width: fit-content;
+        padding: 0;
     }
 
+    header {
+        /* Switched header to flex column, no requirement to add additional
+           flex properties as they already exist outside the media query */
+        flex-direction: column;
+        padding: 0 .5rem;
+    }
 
+    .nav-toggle-label-close,
+    .nav-toggle-label-open {
+        display: none;
+    }
 }
