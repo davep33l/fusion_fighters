@@ -90,6 +90,10 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
 /* Main Styles */
 main {
     background-color: lightyellow;
