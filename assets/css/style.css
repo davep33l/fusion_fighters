@@ -137,6 +137,7 @@ footer {
         display: block;
         width: fit-content;
         padding: 0;
+        border-bottom: none;
     }
 
     header {
@@ -144,6 +145,21 @@ footer {
            flex properties as they already exist outside the media query */
         flex-direction: column;
         padding: 0 .5rem;
+    }
+
+    #logo {
+        font-size: 2.5rem;
+    }
+
+    #menu {
+        display: flex;
+        padding: .5rem 0;
+        font-size: 1rem;
+    }
+
+    #menu li {
+        padding: 0 1rem;
+        margin-bottom: 0;
     }
 
     .nav-toggle-label-close,
