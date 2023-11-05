@@ -51,6 +51,20 @@ h1 {
     font-size: 1.5rem;
 }
 
+#menu {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#menu a {
+    color: var(--clr-light);
+}
+
 /* Main Styles */
 main {
     background-color: lightyellow;
