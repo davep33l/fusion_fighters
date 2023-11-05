@@ -82,6 +82,12 @@ nav {
     padding-top: 1rem;
     border-bottom: 1px solid var(--clr-gold);
     display: none;
+    /* This makes sure the nav starts at the bottom of the header */
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /* Main Styles */
