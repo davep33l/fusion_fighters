@@ -137,7 +137,7 @@ main {
     color: var(--clr-light);
     background-color: rgba(67, 80, 88, .3);
     font-size: 120%;
-    width: 90%;
+    width: 80%;
     position: absolute;
     padding: 1rem 0;
     padding-left: 1rem;
@@ -210,6 +210,15 @@ footer {
     main {
         margin-top: 89px;
     }
+
+    /* Hero Section */
+
+    #hero-text {
+        font-size: 2rem;
+        width: 50%;
+        bottom: 15%;
+        left: 4rem;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -228,5 +237,12 @@ footer {
 
     main {
         margin-top: 120px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    #hero-text {
+        width: 35%;
     }
 }
