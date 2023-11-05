@@ -72,6 +72,7 @@ h1 {
 
 .nav-toggle-label {
     color: var(--clr-light);
+    font-size: 1.4rem;
 }
 
 nav {
@@ -99,6 +100,8 @@ main {
     background-color: lightyellow;
     /* Make the main element take up surplus space and push the footer down */
     flex: 1 0 auto;
+    /* Pushes main content down below the height of the header, px size found using dev tools */
+    margin-top: 33px;
 }
 
 /* Footer Styles */
