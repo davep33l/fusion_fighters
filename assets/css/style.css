@@ -36,6 +36,10 @@ header {
     background-color: lightseagreen;
 }
 
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
 /* Main Styles */
 main {
     background-color: lightyellow;
