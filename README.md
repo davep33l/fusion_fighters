@@ -70,3 +70,58 @@ As the owner of the website I want it to be accessible
     - Contact/Get in Touch
 - Footer
     - Social Links
+
+## Skeleton
+
+### Wireframes
+
+## Surface
+
+### Typography
+
+Fonts for the site were obtained from googlefonts. The fonts chosen were.
+
+1. [Cinzel](https://fonts.google.com/?query=cinzel)
+2. [Philosopher](https://fonts.google.com/?query=philosopher)
+
+### Colours
+
+I had an idea for the colours I wanted for the website already, and I used coolers to visualise these all together.
+
+I chose a strong black to symbolise a Black Belt, which is generally the highest level belt a martial arts practitioner can attain.
+
+I chose a grey, to be an accent tone to this.
+
+I chose the yellow/gold as it symbolises winning (gold medals) and is also the most common colour used for martial art belt embroidery.
+
+I chose the red as it is also a common colour used on martial art belt embroidery. 
+
+I chose a slightly off white as my light colour.
+
+![Colour Palette visualised by Coolers](assets/readme/colour-palette.png)
+
+### Images
+
+## Accessibility
+
+## Technologies Used
+
+## Deployment 
+
+1. Ensure the relevant Github repo is selected
+2. Ensure that the repo is set to public
+3. Navigate to the settings on the ribbon navigation bar
+4. Navigate to the pages section on the left navigation bar
+5. Under Build and Deployment ensure the source is set to "deploy from branch"
+6. Select "main" under the branch section and folder as "/root" and select save
+7. Navigate to Actions on the ribbon navigation bar
+8. There will be a "pages build and deployment" with a green tick if successful
+9. Select this workflow action and there will be a link under the deploy aspect of the workflow
+10. Select the link to view the site
+11. The link for this site is https://davep33l.github.io/fusion_fighters/
+
+## Testing
+
+## Acknowledgements / Credits
+
+The idea for coolers was from the readme webinar from Kera Cudmore (Thank you if you read this)
