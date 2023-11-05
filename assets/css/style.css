@@ -70,11 +70,8 @@ h1 {
 
 /* Navbar styles and dropdown toggle */
 
-.nav-toggle-label {
-    color: var(--clr-light);
-    font-size: 1.4rem;
-}
-
+/* Naviagtion was inspired by the LMS material and 
+enhanced further down with my own knowledge */
 nav {
     position: absolute;
     background-color: var(--clr-dark);
@@ -93,6 +90,27 @@ nav {
 
 #nav-toggle {
     display: none;
+}
+
+/* Enhanced Toggle Label to show a hamburger to open and 
+   a cross to close */
+
+.nav-toggle-label-open,
+.nav-toggle-label-close {
+    color: var(--clr-light);
+    font-size: 1.4rem;
+}
+
+.nav-toggle-label-close {
+    display: none;
+}
+
+#nav-toggle:checked~.nav-toggle-label-open {
+    display: none;
+}
+
+#nav-toggle:checked~.nav-toggle-label-close {
+    display: block;
 }
 
 /* Main Styles */
