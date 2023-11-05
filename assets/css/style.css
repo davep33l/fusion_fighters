@@ -41,8 +41,14 @@ header {
     border-bottom: 1px solid var(--clr-gold);
 }
 
+header a {
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Cinzel', serif;
+    color: var(--clr-gold);
+    font-size: 1.5rem;
 }
 
 /* Main Styles */
