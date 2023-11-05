@@ -124,7 +124,7 @@ main {
 
 /* Footer Styles */
 footer {
-    background-color: lightsteelblue;
+    background-color: var(--clr-dark);
 }
 
 /* Media queries: Tablets and larger (768px and upwards) */
