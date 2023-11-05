@@ -1,0 +1,6 @@
+/* Reset styles to overide the browser setttings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
