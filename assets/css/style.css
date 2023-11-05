@@ -177,4 +177,16 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid var(--clr-gold);
     }
+
+    #logo {
+        font-size: 3.5rem;
+    }
+
+    #menu {
+        font-size: 1.5rem;
+    }
+
+    main {
+        margin-top: 120px;
+    }
 }
