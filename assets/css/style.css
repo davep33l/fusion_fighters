@@ -166,4 +166,8 @@ footer {
     .nav-toggle-label-open {
         display: none;
     }
+
+    main {
+        margin-top: 89px;
+    }
 }
