@@ -1,5 +1,7 @@
 # FUSION FIGHTERS MARTIAL ARTS CLUB
 
+The website can be viewed here [Fusion Fighers](https://davep33l.github.io/fusion_fighters/)
+
 ## High Level Site Owner Goals
 
 Fusion Fighters Martial Arts is a multi-discipline martial arts club based in the UK. It is focused on providing training in 3 major disciplines. The 3 disciplines are Judo, which is primarily a throw-based martial art, Karate, which is primarily a striking-based martial art and Brazilian Jiu Jitsu (BJJ), which is primarily a ground-based martial art. 
