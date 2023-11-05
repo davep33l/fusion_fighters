@@ -74,6 +74,7 @@ nav {
     left: 0;
     padding-top: 1rem;
     border-bottom: 1px solid var(--clr-gold);
+    display: none;
 }
 
 /* Main Styles */
