@@ -31,6 +31,10 @@ body {
     color: var(--clr-dark);
 }
 
+h3 {
+    color: var(--clr-dark);
+}
+
 /* Header Styles */
 header {
     background-color: var(--clr-dark);
