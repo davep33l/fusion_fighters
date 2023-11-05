@@ -133,6 +133,22 @@ main {
     background: url(../images/hero-bg-kneeling-down-martial-artist-1920x1306-compressed-final.webp) no-repeat center center/cover;
 }
 
+#hero-text {
+    color: var(--clr-light);
+    background-color: rgba(67, 80, 88, .3);
+    font-size: 120%;
+    width: 90%;
+    position: absolute;
+    padding: 1rem 0;
+    padding-left: 1rem;
+    left: .5rem;
+    bottom: 20%;
+}
+
+#hero-text p {
+    letter-spacing: 1px;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
