@@ -39,6 +39,9 @@ header {
     z-index: 100;
     width: 100%;
     border-bottom: 1px solid var(--clr-gold);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a {
