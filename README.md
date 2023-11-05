@@ -128,3 +128,5 @@ The Favicon was obtained from [icon8s.com](https://icons8.com/icon/KYBCho8WVA7Z/
 ## Acknowledgements / Credits
 
 The idea for coolers was from the readme webinar from Kera Cudmore (Thank you if you read this)
+
+I referenced [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML) throughout this project.
