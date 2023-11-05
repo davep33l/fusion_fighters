@@ -126,3 +126,17 @@ main {
 footer {
     background-color: lightsteelblue;
 }
+
+/* Media queries: Tablets and larger (768px and upwards) */
+
+@media screen and (min-width:768px) {
+
+    /* Header Section */
+    nav {
+        position: relative;
+        display: block;
+        width: fit-content;
+    }
+
+
+}
