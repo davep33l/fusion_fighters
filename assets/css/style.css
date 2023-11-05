@@ -48,6 +48,20 @@ body {
     color: var(--clr-dark);
 }
 
+#benefits h3,
+#about h3,
+#reviews h3 {
+    color: var(--clr-gold);
+}
+
+#styles h3,
+#instructors h3,
+#times h3,
+#contact h3 {
+    color: var(--clr-red);
+}
+
+
 /* Header Styles */
 header {
     background-color: var(--clr-dark);
