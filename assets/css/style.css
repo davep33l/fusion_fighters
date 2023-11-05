@@ -33,7 +33,12 @@ body {
 
 /* Header Styles */
 header {
-    background-color: lightseagreen;
+    background-color: var(--clr-dark);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid var(--clr-gold);
 }
 
 h1 {
