@@ -296,6 +296,24 @@ section {
 
 /* About Section */
 
+/* I wanted to make an opaque and found this 
+resounce https://coder-coder.com/background-image-opacity/ I edited it to
+my requirements and searched on MDN for a short hand for the top, middle, bottom, left
+properties to enable me to use inset:0; 
+MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
+
+#about {
+    position: relative;
+}
+
+#about::before {
+    content: "";
+    background: url(../images/about-background-gym-image-1920x1281-compressed.webp) no-repeat center center/cover;
+    opacity: .15;
+    position: absolute;
+    inset: 0;
+}
+
 .about-text-container {
     padding: 0 2rem 2rem 2rem;
     max-width: 650px;
