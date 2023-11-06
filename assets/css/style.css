@@ -236,6 +236,13 @@ section {
     padding: 1rem 0;
 }
 
+/* Instructor Section */
+
+.instructor-card img {
+    width: 100%;
+    height: auto;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
