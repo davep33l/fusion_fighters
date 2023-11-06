@@ -118,6 +118,8 @@ Karate instructor photo by [Thao Lee](https://unsplash.com/@h4x0r3?utm_content=c
 
 Brazilian Jiu-Jitsu instructor photo by [jahir martinez](https://unsplash.com/@jahirmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/man-in-white-button-up-long-sleeve-shirt-holding-black-and-red-skateboard-cVLOqm8sSXc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
+About Section background image by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/people-sitting-on-floor-in-front-of-white-wall-DT3bb-KDAus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
 
 ## Accessibility
 
