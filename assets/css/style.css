@@ -355,6 +355,8 @@ footer {
         gap: 2rem;
     }
 
+    /* The below style is applied to the middle instructor in the html
+    it reverses the order of the text and image to give a more visual appeal */
     .reverse-order img {
         order: 2;
     }
