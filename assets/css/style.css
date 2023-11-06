@@ -222,7 +222,8 @@ section {
     text-align: center;
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    width: 100%;
+    width: 80%;
+    box-shadow: inset 10px 0 gold, inset -10px 0 gold;
 }
 
 /* Footer Styles */
