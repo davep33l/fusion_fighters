@@ -153,6 +153,11 @@ Chrome Dev Tools was used throughout the development of the website, utilising t
 
 Chrome Dev Tools specfically helped with the concurance of my image sizes and adding heights and widths to images to prevent content layout shift.
 
+HTML was tested using the [W3C HTML Validator](https://validator.w3.org/)
+
+CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+
 ## Acknowledgements / Credits
 
 The idea for coolers was from the readme webinar from Kera Cudmore (Thank you if you read this)
