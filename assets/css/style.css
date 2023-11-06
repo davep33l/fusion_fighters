@@ -244,6 +244,7 @@ section {
     align-items: center;
     padding: 0 2rem;
     padding-bottom: 2rem;
+    width: 100%;
 }
 
 .instructor-card {
@@ -352,7 +353,12 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 2rem;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .instructor-card>* {
+        flex-basis: 100%;
     }
 
     /* The below style is applied to the middle instructor in the html
