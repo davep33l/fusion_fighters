@@ -374,6 +374,19 @@ footer {
 
     /* Benefits Section */
 
+    .benefit-container {
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .benefit-card {
+        width: 40%;
+    }
+
     .benefit-card h4 {
         font-size: 150%;
     }
