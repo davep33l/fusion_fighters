@@ -246,6 +246,10 @@ section {
     padding-bottom: 2rem;
 }
 
+.instructor-card {
+    margin-top: 2rem;
+}
+
 .instructor-card-text {
     display: flex;
     flex-direction: column;
