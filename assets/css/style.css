@@ -193,6 +193,13 @@ section {
     letter-spacing: 1px;
 }
 
+/* Styles Section */
+
+.style-image img {
+    width: 100%;
+    height: auto;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
