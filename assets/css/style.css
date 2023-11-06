@@ -294,6 +294,17 @@ section {
     max-width: 350px;
 }
 
+/* About Section */
+
+.about-text-container {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.about-text-container p {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
