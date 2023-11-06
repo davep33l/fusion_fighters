@@ -298,6 +298,8 @@ section {
 
 .about-text-container {
     padding: 0 2rem 2rem 2rem;
+    max-width: 650px;
+    margin: auto;
 }
 
 .about-text-container p {
@@ -478,6 +480,18 @@ footer {
     .reverse-order img {
         order: 0;
     }
+
+    /* About Section */
+    .about-text-container {
+        display: flex;
+        gap: 1rem;
+        max-width: 1200px;
+    }
+
+    .about-text-container p {
+        flex-basis: 50%;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
