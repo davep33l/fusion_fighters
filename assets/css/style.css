@@ -205,7 +205,7 @@ section {
 .style-card {
     max-width: 500px;
     margin-top: 2rem;
-    border: 1px solid black;
+    background-color: rgba(67, 80, 88, 0.2);
 }
 
 .style-image img {
@@ -228,6 +228,11 @@ section {
     values to give an inset border to each end of the h4 container 
     Source: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
     box-shadow: inset 10px 0 var(--clr-gold), inset -10px 0 var(--clr-gold);
+}
+
+.style-text p {
+    width: 90%;
+    margin: 1rem 0;
 }
 
 /* Footer Styles */
