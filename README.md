@@ -104,10 +104,34 @@ I chose a slightly off white as my light colour.
 
 The Favicon was obtained from [icon8s.com](https://icons8.com/icon/KYBCho8WVA7Z/kimono) and I used [favicon.io](https://favicon.io/favicon-converter/) to generate the size specific favicons. 
 
+Hero background photo by [Thao Lee](https://unsplash.com/@h4x0r3?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/woman-wearing-karatejee-uGlJHMEifB4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Judo styles photo by [master1305](https://www.freepik.com/author/master1305) from [Freepik](https://www.freepik.com/free-photo/two-young-fighters-kimono-training-martial-arts-gym_7785559.htm#query=judo&position=3&from_view=keyword&track=sph)
+
+Karate styles photo by [Soon Santos](https://unsplash.com/@soonsam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/two-men-about-to-sparring-sab37qbGmHc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Brazilian Jiu-Jitsu styles photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/man-in-white-and-black-jacket-and-pants-sitting-on-black-floor-YmNIHXdTfPg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Judo instructor photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/a-man-in-a-white-kimono-sitting-down-YSzuRTO5WFY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Karate instructor photo by [Thao Lee](https://unsplash.com/@h4x0r3?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/woman-in-white-long-sleeve-shirt-and-gray-pants-wearing-brown-hat-o59vMsBuuSg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Brazilian Jiu-Jitsu instructor photo by [jahir martinez](https://unsplash.com/@jahirmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/man-in-white-button-up-long-sleeve-shirt-holding-black-and-red-skateboard-cVLOqm8sSXc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
 
 ## Accessibility
 
 ## Technologies Used
+
+This website was created using HTML and CSS.
+
+The wireframes were created using [Balsamiq for Desktop](https://balsamiq.com/wireframes/desktop/).
+
+Images were resized using [Adobe Express](https://www.adobe.com/express/feature/image/resize)
+
+Images were compressed using [tinypng](https://tinypng.com/)
+
+Images were converted to webp format using [convertio.co](https://convertio.co/)
 
 ## Deployment 
 
@@ -124,6 +148,10 @@ The Favicon was obtained from [icon8s.com](https://icons8.com/icon/KYBCho8WVA7Z/
 11. The link for this site is https://davep33l.github.io/fusion_fighters/
 
 ## Testing
+
+Chrome Dev Tools was used throughout the development of the website, utilising the Lighthouse functionality to highlight any performance  accessibility improvements that could be made. 
+
+Chrome Dev Tools specfically helped with the concurance of my image sizes and adding heights and widths to images to prevent content layout shift.
 
 ## Acknowledgements / Credits
 
