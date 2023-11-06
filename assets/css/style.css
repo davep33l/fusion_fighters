@@ -34,7 +34,7 @@ body {
 #benefits,
 #about,
 #reviews {
-    min-height: 65vh;
+    min-height: 50vh;
     background-color: var(--clr-dark);
     color: var(--clr-light);
 }
