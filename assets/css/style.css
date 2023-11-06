@@ -212,6 +212,19 @@ section {
     height: auto;
 }
 
+.style-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style-text h4 {
+    text-align: center;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    width: 100%;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
