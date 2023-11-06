@@ -404,6 +404,21 @@ footer {
     .style-card {
         flex: 1;
     }
+
+    /* Instructors Section */
+
+    .instructor-container {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .instructor-card {
+        flex-direction: column;
+    }
+
+    .reverse-order img {
+        order: 0;
+    }
 }
 
 @media screen and (min-width:1200px) {
