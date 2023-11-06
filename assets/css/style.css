@@ -195,6 +195,15 @@ section {
 
 /* Styles Section */
 
+.styles-container {
+    padding: 0 2rem;
+
+}
+
+.style-card {
+    max-width: 500px;
+}
+
 .style-image img {
     width: 100%;
     height: auto;
