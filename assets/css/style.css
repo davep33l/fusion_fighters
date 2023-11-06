@@ -345,6 +345,19 @@ footer {
         bottom: 15%;
         left: 4rem;
     }
+
+    /* Instructors Section */
+
+    .instructor-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .reverse-order img {
+        order: 2;
+    }
 }
 
 @media screen and (min-width:992px) {
