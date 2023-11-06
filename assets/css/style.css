@@ -246,6 +246,19 @@ section {
     padding-bottom: 2rem;
 }
 
+.benefit-card {
+    width: 80%;
+}
+
+.benefit-card h4 {
+    border-bottom: 2px solid var(--clr-gold);
+    margin-top: 2rem;
+}
+
+.benefit-card p {
+    margin-top: .5rem;
+}
+
 /* Instructor Section */
 
 .instructor-container {
