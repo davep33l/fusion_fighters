@@ -1,3 +1,21 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "cSpell.ignoreWords": [
+        "Balsamiq",
+        "Cinzel",
+        "Cudmore",
+        "Dumlao",
+        "Freepik",
+        "Jitsu",
+        "Kera",
+        "Thao",
+        "convertio",
+        "jahir",
+        "tinypng",
+        "webp"
+    ],
+    "cSpell.words": [
+        "colour",
+        "Colours"
+    ]
 }

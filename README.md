@@ -1,10 +1,10 @@
 # FUSION FIGHTERS MARTIAL ARTS CLUB
 
-The website can be viewed here [Fusion Fighers](https://davep33l.github.io/fusion_fighters/)
+The website can be viewed here [Fusion Fighters](https://davep33l.github.io/fusion_fighters/)
 
 ## High Level Site Owner Goals
 
-Fusion Fighters Martial Arts is a multi-discipline martial arts club based in the UK. It is focused on providing training in 3 major disciplines. The 3 disciplines are Judo, which is primarily a throw-based martial art, Karate, which is primarily a striking-based martial art and Brazilian Jiu Jitsu (BJJ), which is primarily a ground-based martial art. 
+Fusion Fighters Martial Arts is a multi-discipline martial arts club based in the UK. It is focused on providing training in 3 major disciplines. The 3 disciplines are Judo, which is primarily a throw-based martial art, Karate, which is primarily a striking-based martial art and Brazilian Jiu-Jitsu (BJJ), which is primarily a ground-based martial art. 
 
 The owner and chief instructor of the club currently only promotes his club via leaflets and does not have a presence online. The owner wants to have a presence online where he can direct future members in order to provide them with information on the club and to increase membership to the club by giving visitors the ability to request more information and/or sign up. 
 
@@ -30,7 +30,7 @@ The owner and chief instructor of the club currently only promotes his club via 
 4. As a user of the website I should be able to see more about the club
 5. As a user of the website I should be able to see a timetable of the classes
 6. As a user of the website I should be able to see the cost of the classes
-7. As a user of the website I should be able to see testimonials from current or previous memebers regarding the club
+7. As a user of the website I should be able to see testimonials from current or previous members regarding the club
 8. As a user of the website I should be able to contact the club for more information or to sign up
 9. The site should be responsive on both mobile and desktop
 10. The site should be easy to navigate to the relevant sections of the site
@@ -73,32 +73,32 @@ As the owner of the website I want it to be accessible
 
 ## Skeleton
 
-### Wireframes
+### Wire-frames
 
 ## Surface
 
 ### Typography
 
-Fonts for the site were obtained from googlefonts. The fonts chosen were.
+Fonts for the site were obtained from google-fonts. The fonts chosen were.
 
 1. [Cinzel](https://fonts.google.com/?query=cinzel)
 2. [Philosopher](https://fonts.google.com/?query=philosopher)
 
 ### Colours
 
-I had an idea for the colours I wanted for the website already, and I used coolers to visualise these all together.
+I had an idea for the colours I wanted for the website already, and I used coolers to visualize these all together.
 
-I chose a strong black to symbolise a Black Belt, which is generally the highest level belt a martial arts practitioner can attain.
+I chose a strong black to symbolize a Black Belt, which is generally the highest level belt a martial arts practitioner can attain.
 
 I chose a grey, to be an accent tone to this.
 
-I chose the yellow/gold as it symbolises winning (gold medals) and is also the most common colour used for martial art belt embroidery.
+I chose the yellow/gold as it symbolizes winning (gold medals) and is also the most common colour used for martial art belt embroidery.
 
 I chose the red as it is also a common colour used on martial art belt embroidery. 
 
 I chose a slightly off white as my light colour.
 
-![Colour Palette visualised by Coolers](assets/readme/colour-palette.png)
+![Colour Palette visualized by Coolers](assets/readme/colour-palette.png)
 
 ### Images
 
@@ -125,13 +125,15 @@ Brazilian Jiu-Jitsu instructor photo by [jahir martinez](https://unsplash.com/@j
 
 This website was created using HTML and CSS.
 
-The wireframes were created using [Balsamiq for Desktop](https://balsamiq.com/wireframes/desktop/).
+The wire-frames were created using [Balsamiq for Desktop](https://balsamiq.com/wireframes/desktop/).
 
 Images were resized using [Adobe Express](https://www.adobe.com/express/feature/image/resize)
 
 Images were compressed using [tinypng](https://tinypng.com/)
 
 Images were converted to webp format using [convertio.co](https://convertio.co/)
+
+Used the Code Spell Checker Extension in VS Code to review spelling on this README.md file
 
 ## Deployment 
 
@@ -149,9 +151,9 @@ Images were converted to webp format using [convertio.co](https://convertio.co/)
 
 ## Testing
 
-Chrome Dev Tools was used throughout the development of the website, utilising the Lighthouse functionality to highlight any performance  accessibility improvements that could be made. 
+Chrome Dev Tools was used throughout the development of the website, utilizing the Lighthouse functionality to highlight any performance  accessibility improvements that could be made. 
 
-Chrome Dev Tools specfically helped with the concurance of my image sizes and adding heights and widths to images to prevent content layout shift.
+Chrome Dev Tools specifically helped with the concurrence of my image sizes and adding heights and widths to images to prevent content layout shift.
 
 HTML was tested using the [W3C HTML Validator](https://validator.w3.org/)
 
