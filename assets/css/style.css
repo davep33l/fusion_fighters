@@ -205,6 +205,7 @@ section {
 .style-card {
     max-width: 500px;
     margin-top: 2rem;
+    border: 1px solid black;
 }
 
 .style-image img {
@@ -336,7 +337,7 @@ footer {
     /* Styles Section */
     .styles-container {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: stretch;
         justify-content: center;
         gap: 1rem;
     }
