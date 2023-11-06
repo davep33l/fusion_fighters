@@ -332,6 +332,17 @@ footer {
         /* Browser Compatibility sourced from https://caniuse.com/?search=scroll-margin-top */
         scroll-margin-top: 120px;
     }
+
+    /* Styles Section */
+    .styles-container {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .style-card {
+        flex: 1;
+    }
 }
 
 @media screen and (min-width:1200px) {
