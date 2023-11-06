@@ -256,6 +256,11 @@ section {
     align-items: center;
 }
 
+.instructor-card-text li {
+    list-style-type: none;
+    text-align: center;
+}
+
 .instructor-card img {
     width: 100%;
     height: auto;
