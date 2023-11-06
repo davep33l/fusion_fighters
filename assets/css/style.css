@@ -244,6 +244,8 @@ section {
     align-items: center;
     padding: 0 2rem;
     padding-bottom: 2rem;
+    max-width: 600px;
+    margin: auto;
 }
 
 .benefit-card {
