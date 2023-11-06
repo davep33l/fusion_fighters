@@ -223,6 +223,9 @@ section {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     width: 80%;
+    /* Use MDN documents to learn about the comma separated 
+    values to give an inset border to each end of the h4 container 
+    Source: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
     box-shadow: inset 10px 0 gold, inset -10px 0 gold;
 }
 
