@@ -236,6 +236,16 @@ section {
     padding: 1rem 0;
 }
 
+/* Benefits Section */
+
+.benefit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+}
+
 /* Instructor Section */
 
 .instructor-container {
