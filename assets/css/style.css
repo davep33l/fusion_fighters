@@ -668,6 +668,20 @@ footer {
         font-size: 1.3rem;
     }
 
+    /* reset all colours to grey */
+    .times-container div:nth-child(4n) {
+        background-color: var(--clr-grey);
+    }
+
+    .times-container div:nth-child(3n) {
+        background-color: var(--clr-red);
+    }
+
+    .times-container div:nth-child(3n+1) {
+        background-color: var(--clr-gold);
+        color: var(--clr-dark);
+    }
+
 }
 
 @media screen and (min-width:1200px) {
