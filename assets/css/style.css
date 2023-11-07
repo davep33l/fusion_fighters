@@ -635,11 +635,8 @@ footer {
 
     /* Timetable and pricing section */
 
-    #times {
-        max-width: 1200px;
-    }
-
     #times>p {
+        max-width: 1200px;
         max-width: 75%;
         margin: auto;
     }
