@@ -428,6 +428,11 @@ my commits clean */
     font-size: .8rem;
 }
 
+.times-container>h4,
+.times-container>div {
+    border: 1px solid var(--clr-dark);
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
