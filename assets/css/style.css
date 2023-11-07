@@ -432,6 +432,7 @@ my commits clean */
 .times-container>h4,
 .times-container>div {
     border: 1px solid var(--clr-dark);
+    letter-spacing: 1px;
 }
 
 .times-container div {
