@@ -331,6 +331,89 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     text-align: center;
 }
 
+/* For the next section I used the documentation on MDN to understand
+the css grid a bit more and devised a layout I liked with this in mind
+below are the sources I used to assist my understanding*/
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas */
+/* https://developer.mozilla.org/en-US/docs/Glossary/Grid_Areas */
+/* I also used MDN to understand the nth child psuedo element further
+to help with the selecting of the elements I wanted. I tested this out first
+using individual selectors on the html, but found a more "elegant" way by using
+css only to select the items I wanted to. 
+This next piece of code is pre-tested code away from my main project in order to keep
+my commits clean */
+
+.times-container {
+    display: grid;
+    grid-template-areas:
+        "day1       day1"
+        "day1class1 day1class2"
+        "day1class3 day1class3"
+        "day2       day2"
+        "day2class1 day2class2"
+        "day2class3 day2class3"
+        "day3       day3"
+        "day3class1 day3class2"
+        "day3class3 day3class3";
+    padding: 2rem;
+    margin: auto;
+}
+
+
+.times-container>h4:nth-child(1) {
+    grid-area: day1;
+    background-color: var(--clr-dark);
+    color: var(--clr-gold);
+}
+
+.times-container>h4:nth-child(5) {
+    grid-area: day2;
+    background-color: var(--clr-dark);
+    color: var(--clr-gold);
+}
+
+.times-container>h4:nth-child(9) {
+    grid-area: day3;
+    background-color: var(--clr-dark);
+    color: var(--clr-gold);
+}
+
+.times-container>div:nth-child(2) {
+    grid-area: day1class1;
+}
+
+.times-container>div:nth-child(3) {
+    grid-area: day1class2;
+}
+
+.times-container>div:nth-child(4) {
+    grid-area: day1class3;
+}
+
+.times-container>div:nth-child(6) {
+    grid-area: day2class1;
+}
+
+.times-container>div:nth-child(7) {
+    grid-area: day2class2;
+}
+
+.times-container>div:nth-child(8) {
+    grid-area: day2class3;
+}
+
+.times-container>div:nth-child(10) {
+    grid-area: day3class1;
+}
+
+.times-container>div:nth-child(11) {
+    grid-area: day3class2;
+}
+
+.times-container>div:nth-child(12) {
+    grid-area: day3class3;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
