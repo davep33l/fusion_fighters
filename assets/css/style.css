@@ -327,8 +327,8 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
 
 /* Timetable and pricing section */
 
-.times-container {
-    text-align: center;
+#times>p {
+    padding: 2rem;
 }
 
 /* For the next section I used the documentation on MDN to understand
@@ -358,6 +358,7 @@ my commits clean */
     padding: 2rem;
     margin: auto;
     max-width: 500px;
+    text-align: center;
 }
 
 .times-container>h4:nth-child(1) {
