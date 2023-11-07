@@ -360,7 +360,6 @@ my commits clean */
     max-width: 500px;
 }
 
-
 .times-container>h4:nth-child(1) {
     grid-area: day1;
     background-color: var(--clr-dark);
@@ -413,6 +412,20 @@ my commits clean */
 
 .times-container>div:nth-child(12) {
     grid-area: day3class3;
+}
+
+.times-container h4 {
+    padding: .5rem;
+    font-size: 1.4rem;
+}
+
+.times-container h5 {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.times-container p {
+    font-size: .8rem;
 }
 
 /* Footer Styles */
