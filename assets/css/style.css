@@ -325,6 +325,12 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     line-height: 1.5rem;
 }
 
+/* Timetable and pricing section */
+
+.times-container {
+    text-align: center;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
