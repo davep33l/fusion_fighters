@@ -445,7 +445,8 @@ I read that it could be used to target specific items using a formula notation. 
 the selection of only the factor of 4 elements to have the background colour changed */
 /* Source: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child */
 .times-container div:nth-child(4n) {
-    background-color: var(--clr-red);
+    background-color: var(--clr-gold);
+    color: var(--clr-dark);
 }
 
 /* Footer Styles */
@@ -671,7 +672,8 @@ footer {
     }
 
     .times-container div:nth-child(3n) {
-        background-color: var(--clr-red);
+        background-color: var(--clr-light);
+        color: var(--clr-dark);
     }
 
     .times-container div:nth-child(3n+1) {
