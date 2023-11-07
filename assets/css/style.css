@@ -670,6 +670,7 @@ footer {
     /* reset all colours to grey */
     .times-container div:nth-child(4n) {
         background-color: var(--clr-grey);
+        color: var(--clr-light);
     }
 
     .times-container div:nth-child(3n) {
