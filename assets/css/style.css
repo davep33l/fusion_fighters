@@ -433,6 +433,20 @@ my commits clean */
     border: 1px solid var(--clr-dark);
 }
 
+.times-container div {
+    padding: .5rem;
+    background-color: var(--clr-grey);
+    color: #fffcff;
+}
+
+/* After learning of the nth-child used in the selection for the grid-template-area section
+I read that it could be used to target specific items using a formula notation. This allowed for 
+the selection of only the factor of 4 elements to have the background colour changed */
+/* Source: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child */
+.times-container div:nth-child(4n) {
+    background-color: var(--clr-red);
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
