@@ -644,6 +644,19 @@ footer {
         margin: auto;
     }
 
+    .times-container {
+        grid-template-areas:
+            "day1 day1class1 day1class2 day1class3"
+            "day1 . . ."
+            "day1 . . ."
+            "day2 day2class1 day2class2 day2class3"
+            "day2 . . ."
+            "day2 . . ."
+            "day3 day3class1 day3class2 day3class3"
+            "day3 . . ."
+            "day3 . . .";
+        max-width: 80%;
+    }
 }
 
 @media screen and (min-width:1200px) {
