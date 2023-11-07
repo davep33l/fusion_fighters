@@ -633,6 +633,17 @@ footer {
         flex-basis: 50%;
     }
 
+    /* Timetable and pricing section */
+
+    #times {
+        max-width: 1200px;
+    }
+
+    #times>p {
+        max-width: 75%;
+        margin: auto;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
