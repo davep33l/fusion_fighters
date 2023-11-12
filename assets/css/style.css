@@ -52,6 +52,7 @@ body {
 #about h3,
 #reviews h3 {
     color: var(--clr-gold);
+    padding-top: 2rem;
 }
 
 #styles h3,
@@ -59,6 +60,7 @@ body {
 #times h3,
 #contact h3 {
     color: var(--clr-red);
+    padding-top: 2rem;
 }
 
 h3 {
