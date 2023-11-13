@@ -450,6 +450,10 @@ the selection of only the factor of 4 elements to have the background colour cha
 
 /* Reviews Section */
 
+.reviews-container {
+    padding: 0 1rem 1rem 1rem;
+}
+
 .review-card {
     display: grid;
     grid-template-areas:
