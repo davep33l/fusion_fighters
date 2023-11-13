@@ -100,7 +100,7 @@ I chose the yellow/gold as it symbolizes winning (gold medals) and is also the m
 
 I chose the red as it is also a common colour used on martial art belt embroidery. 
 
-I chose a slightly off white as my light colour.
+I chose a slightly off white as my light colour as this is the main colour for a martial arts gi.
 
 ![Colour Palette visualized by Coolers](assets/readme/colour-palette.png)
 
