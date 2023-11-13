@@ -457,9 +457,9 @@ the selection of only the factor of 4 elements to have the background colour cha
 .review-card {
     display: grid;
     grid-template-areas:
-        "image  .       stars"
-        "image  .       heading"
-        "review review  review";
+        "image    stars     ."
+        "image    heading   ."
+        "review   review    review";
     padding-top: 1rem;
     background-color: rgba(66, 79, 87, 0.1);
     margin-top: 1rem;
