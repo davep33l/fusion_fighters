@@ -460,10 +460,17 @@ the selection of only the factor of 4 elements to have the background colour cha
         "image  .       stars"
         "image  .       heading"
         "review review  review";
+    padding-top: 1rem;
+    background-color: rgba(66, 79, 87, 0.1);
+    margin-top: 1rem;
 }
 
 .review-image {
     grid-area: image;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 .review-stars {
