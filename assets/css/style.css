@@ -624,13 +624,17 @@ footer {
 
     /* About Section */
     .about-text-container {
-        display: flex;
-        gap: 1rem;
         max-width: 1200px;
+        columns: 3;
+        padding-top: 0;
+        margin-top: 0;
+        gap: 3rem;
     }
 
     .about-text-container p {
-        flex-basis: 50%;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 1rem;
     }
 
     /* Timetable and pricing section */
