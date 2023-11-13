@@ -448,6 +448,17 @@ the selection of only the factor of 4 elements to have the background colour cha
     color: var(--clr-dark);
 }
 
+/* Reviews Section */
+
+.review-stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.review-stars li {
+    list-style-type: none;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
