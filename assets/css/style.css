@@ -201,7 +201,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 1rem;
     padding-bottom: 2rem;
 }
 
@@ -244,7 +244,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 1rem;
     padding-bottom: 2rem;
     max-width: 600px;
     margin: auto;
@@ -265,7 +265,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 1rem;
     padding-bottom: 2rem;
     width: 100%;
 }
@@ -313,7 +313,7 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
 }
 
 .about-text-container {
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 1rem 2rem 1rem;
     max-width: 650px;
     margin: auto;
 }
@@ -326,7 +326,7 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
 /* Timetable and pricing section */
 
 #times>p {
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
 /* For the next section I used the documentation on MDN to understand
@@ -353,7 +353,7 @@ my commits clean */
         "day3       day3"
         "day3class1 day3class2"
         "day3class3 day3class3";
-    padding: 2rem;
+    padding: 2rem 1rem;
     margin: auto;
     max-width: 500px;
     text-align: center;
