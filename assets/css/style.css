@@ -250,10 +250,6 @@ section {
     margin: auto;
 }
 
-.benefit-card {
-    width: 80%;
-}
-
 .benefit-card h4 {
     border-bottom: 2px solid var(--clr-gold);
     margin-top: 2rem;
