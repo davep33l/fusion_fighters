@@ -167,3 +167,5 @@ CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-v
 The idea for coolers was from the readme webinar from Kera Cudmore (Thank you if you read this)
 
 I referenced [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML) throughout this project.
+
+Feedback from mid-project mentor session highlighted inconsistency of the space to the left and right of each of the sections. On this feedback I adjusted the padding of each container from 2rem to 1rem and removed some styles that were overriding the 100% width (which I had previously set to 80% width). 
