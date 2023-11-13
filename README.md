@@ -75,7 +75,8 @@ As the owner of the website I want it to be accessible
 
 ### Wire-frames
 
-[Mobile Wireframes](assets/readme/mobile-wireframe.png)
+[Mobile Wireframe](assets/readme/mobile-wireframe.png)
+[Desktop Wireframe](assets/readme/desktop-wireframe.png)
 
 ## Surface
 
