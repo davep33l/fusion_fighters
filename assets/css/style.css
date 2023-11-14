@@ -600,7 +600,7 @@ footer {
     }
 
     .benefit-card {
-        width: 40%;
+        max-width: 500px;
     }
 
     .benefit-card h4 {
