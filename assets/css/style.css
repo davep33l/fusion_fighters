@@ -747,6 +747,21 @@ footer {
         color: var(--clr-dark);
     }
 
+    /* Review Section */
+
+    #reviews {
+        min-height: auto;
+    }
+
+    .reviews-container {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 1rem;
+        padding-bottom: 2rem;
+        max-width: 1200px;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
