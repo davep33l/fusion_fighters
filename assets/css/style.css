@@ -476,6 +476,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     padding: 15px 0;
 }
 
+/* Attempt to use BEM methodology to modify the existing review image class */
 .review-image--placeholder-one {
     background: url(../images/review-profile-image-placeholder-1.png) no-repeat center center/cover;
 }
