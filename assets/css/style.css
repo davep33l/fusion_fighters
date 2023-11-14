@@ -463,6 +463,9 @@ the selection of only the factor of 4 elements to have the background colour cha
     padding: .5rem;
     background-color: rgba(66, 79, 87, 0.1);
     margin-top: 1rem;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .review-image {
