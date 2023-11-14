@@ -594,7 +594,7 @@ footer {
         flex-direction: row;
         align-items: stretch;
         justify-content: center;
-        max-width: 1200px;
+        max-width: 1400px;
         flex-wrap: wrap;
         gap: 2rem;
     }
@@ -663,6 +663,9 @@ footer {
         align-items: stretch;
         justify-content: center;
         gap: 1rem;
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .style-card {
@@ -674,6 +677,9 @@ footer {
     .instructor-container {
         flex-direction: row;
         gap: 1rem;
+        max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .instructor-card {
@@ -686,7 +692,7 @@ footer {
 
     /* About Section */
     .about-text-container {
-        max-width: 1200px;
+        max-width: 1400px;
         columns: 3;
         padding-top: 0;
         margin-top: 0;
@@ -702,8 +708,7 @@ footer {
     /* Timetable and pricing section */
 
     #times>p {
-        max-width: 1200px;
-        max-width: 75%;
+        max-width: 1400px;
         margin: auto;
     }
 
@@ -718,7 +723,7 @@ footer {
             "day3 day3class1 day3class2 day3class3"
             "day3 . . ."
             "day3 . . .";
-        max-width: 80%;
+        max-width: 1400px;
     }
 
     .times-container h5,
@@ -759,7 +764,7 @@ footer {
         margin-left: auto;
         gap: 1rem;
         padding-bottom: 2rem;
-        max-width: 1200px;
+        max-width: 1400px;
     }
 
 }
