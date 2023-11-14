@@ -476,6 +476,15 @@ the selection of only the factor of 4 elements to have the background colour cha
     padding: 15px 0;
 }
 
+.review-image--placeholder-one {
+    background: url(../images/review-profile-image-placeholder-1.png) no-repeat center center/cover;
+}
+
+.review-image--placeholder-two {
+    background: url(../images/review-profile-image-placeholder-2.png) no-repeat center center/cover;
+}
+
+
 .review-stars {
     grid-area: stars;
 }
