@@ -124,6 +124,7 @@ Brazilian Jiu-Jitsu instructor photo by [jahir martinez](https://unsplash.com/@j
 
 About Section background image by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) from [Unsplash](https://unsplash.com/photos/people-sitting-on-floor-in-front-of-white-wall-DT3bb-KDAus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
+Review section profile placeholder images by [juicy_fish](https://www.freepik.com/author/juicy-fish) from [Freepik](https://www.freepik.com/free-vector/avatars-circles-glyph-style_77972574.htm#query=profile%20placeholder&position=12&from_view=search&track=ais&uuid=5b1c1e94-1475-4546-9010-864854ff1300). Additional editing to change the colours of the images perfomed by myself using [GIMP](https://www.gimp.org/)
 
 ## Accessibility
 
