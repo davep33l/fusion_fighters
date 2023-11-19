@@ -566,6 +566,14 @@ the selection of only the factor of 4 elements to have the background colour cha
     list-style-type: none;
 }
 
+.contact-email * {
+    display: inline;
+}
+
+.contact-phone * {
+    display: inline;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--clr-dark);
