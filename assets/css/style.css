@@ -517,13 +517,22 @@ the selection of only the factor of 4 elements to have the background colour cha
     list-style-type: none;
 }
 
-
 /* Contact Section */
 
 .contact-form {
     display: flex;
     flex-direction: column;
     padding: 2rem 1rem;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+.contact-address li {
+    list-style-type: none;
 }
 
 /* Footer Styles */
