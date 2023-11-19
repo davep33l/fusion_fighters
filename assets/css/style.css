@@ -529,12 +529,18 @@ the selection of only the factor of 4 elements to have the background colour cha
     border-radius: 5px;
 }
 
+form label {
+    margin-top: .5rem;
+}
+
 textarea {
     height: 100px;
 }
 
 button {
+    margin-top: .5rem;
     width: fit-content;
+    padding: .5rem;
 }
 
 .address-container {
