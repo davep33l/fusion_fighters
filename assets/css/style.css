@@ -527,6 +527,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     margin: auto;
     background-color: var(--clr-gold);
     border-radius: 5px;
+    margin-top: 2rem;
 }
 
 .contact-form label {
