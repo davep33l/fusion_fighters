@@ -529,8 +529,12 @@ the selection of only the factor of 4 elements to have the background colour cha
     border-radius: 5px;
 }
 
-form label {
+.contact-form label {
     margin-top: .5rem;
+}
+
+.contact-form div {
+    margin: .5rem 0;
 }
 
 textarea {
