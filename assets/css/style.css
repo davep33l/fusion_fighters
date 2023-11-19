@@ -534,18 +534,24 @@ the selection of only the factor of 4 elements to have the background colour cha
     margin-top: .5rem;
 }
 
+.contact-form input {
+    border: none;
+}
+
 .contact-form div {
     margin: .5rem 0;
 }
 
-textarea {
+.contact-form textarea {
     height: 100px;
+    border: none;
 }
 
-button {
+.contact-button {
     margin-top: .5rem;
     width: fit-content;
     padding: .5rem;
+    border: none;
 }
 
 .address-container {
