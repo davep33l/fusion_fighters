@@ -525,6 +525,8 @@ the selection of only the factor of 4 elements to have the background colour cha
     padding: 2rem 1rem;
     max-width: 300px;
     margin: auto;
+    background-color: var(--clr-gold);
+    border-radius: 5px;
 }
 
 .address-container {
