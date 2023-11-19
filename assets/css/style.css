@@ -529,6 +529,14 @@ the selection of only the factor of 4 elements to have the background colour cha
     border-radius: 5px;
 }
 
+textarea {
+    height: 100px;
+}
+
+button {
+    width: fit-content;
+}
+
 .address-container {
     display: flex;
     flex-direction: column;
