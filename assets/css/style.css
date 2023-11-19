@@ -523,12 +523,16 @@ the selection of only the factor of 4 elements to have the background colour cha
     display: flex;
     flex-direction: column;
     padding: 2rem 1rem;
+    max-width: 300px;
+    margin: auto;
 }
 
 .address-container {
     display: flex;
     flex-direction: column;
     padding: 2rem 1rem;
+    max-width: 300px;
+    margin: auto;
 }
 
 .contact-address li {
