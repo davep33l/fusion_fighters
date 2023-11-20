@@ -80,6 +80,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
 }
 
 header a {
@@ -156,7 +157,7 @@ main {
     /* Make the main element take up surplus space and push the footer down */
     flex: 1 0 auto;
     /* Pushes main content down below the height of the header, px size found using dev tools */
-    margin-top: 33px;
+    margin-top: 50px;
 }
 
 section {
