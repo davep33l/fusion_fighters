@@ -324,41 +324,43 @@
             <h3>Get in touch</h3>
 
             <!-- Contact Form -->
-            <form method="post" action="https://formdump.codeinstitute.net" id="contact-form" class="contact-form">
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name" name="first-name" required>
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last-name" required>
-                <label for="phone-number">Phone Number:</label>
-                <input type="number" id="phone-number" name="phone-number" required>
-                <label for="email-address">Email Address:</label>
-                <input type="email" id="email-address" name="email-address" required>
-                <div>
-                    <input type="radio" id="sign-up" name="information-type" value="sign-up-package" required>
-                    <label for="sign-up">Sign up / Consultation</label>
-                    <br>
-                    <input type="radio" id="more-info" name="information-type" value="information-package" required>
-                    <label for="more-info">More Information</label>
-                </div>
-                <textarea name="form-message" required></textarea>
-                <button class="contact-button" type="submit">Send message</button>
-            </form>
+            <div class="contact-container">
+                <form method="post" action="https://formdump.codeinstitute.net" id="contact-form" class="contact-form">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="number" id="phone-number" name="phone-number" required>
+                    <label for="email-address">Email Address:</label>
+                    <input type="email" id="email-address" name="email-address" required>
+                    <div>
+                        <input type="radio" id="sign-up" name="information-type" value="sign-up-package" required>
+                        <label for="sign-up">Sign up / Consultation</label>
+                        <br>
+                        <input type="radio" id="more-info" name="information-type" value="information-package" required>
+                        <label for="more-info">More Information</label>
+                    </div>
+                    <textarea name="form-message" required></textarea>
+                    <button class="contact-button" type="submit">Send message</button>
+                </form>
 
-            <!-- Address  & contact information -->
-            <div class="address-container">
-                <ul class="contact-address">
-                    <li>720 Hook Avenue</li>
-                    <li>Submission Town</li>
-                    <li>Greater Manchester</li>
-                    <li>KA20 ATE</li>
-                </ul>
-                <div class="contact-email">
-                    <i class="fa-solid fa-at"></i>
-                    <p>sensei@fusionfighters.com</p>
-                </div>
-                <div class="contact-phone">
-                    <i class="fa-solid fa-square-phone"></i>
-                    <p>+44 7700 900568</p>
+                <!-- Address  & contact information -->
+                <div class="address-container">
+                    <ul class="contact-address">
+                        <li>720 Hook Avenue</li>
+                        <li>Submission Town</li>
+                        <li>Greater Manchester</li>
+                        <li>KA20 ATE</li>
+                    </ul>
+                    <div class="contact-email">
+                        <i class="fa-solid fa-at"></i>
+                        <p>sensei@fusionfighters.com</p>
+                    </div>
+                    <div class="contact-phone">
+                        <i class="fa-solid fa-square-phone"></i>
+                        <p>+44 7700 900568</p>
+                    </div>
                 </div>
             </div>
         </section>

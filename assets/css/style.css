@@ -519,15 +519,21 @@ the selection of only the factor of 4 elements to have the background colour cha
 
 /* Contact Section */
 
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
     padding: 2rem 1rem;
-    max-width: 300px;
-    margin: auto;
+    width: 100%;
+    max-width: 500px;
     background-color: var(--clr-gold);
     border-radius: 5px;
-    margin-top: 2rem;
 }
 
 .contact-form label {
@@ -557,9 +563,7 @@ the selection of only the factor of 4 elements to have the background colour cha
 .address-container {
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem;
-    max-width: 300px;
-    margin: auto;
+    padding: 2rem 0;
 }
 
 .contact-address li {
