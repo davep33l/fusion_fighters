@@ -126,6 +126,8 @@ About Section background image by [Nathan Dumlao](https://unsplash.com/@nate_dum
 
 Review section profile placeholder images by [juicy_fish](https://www.freepik.com/author/juicy-fish) from [Freepik](https://www.freepik.com/free-vector/avatars-circles-glyph-style_77972574.htm#query=profile%20placeholder&position=12&from_view=search&track=ais&uuid=5b1c1e94-1475-4546-9010-864854ff1300). Additional editing to change the colours of the images perfomed by myself using [GIMP](https://www.gimp.org/)
 
+Contact section background image by [master1305](https://www.freepik.com/author/master1305) from [Freepik](https://www.freepik.com/free-photo/karate-girl-with-black-belt_8923768.htm#page=2&query=martial%20arts%20side%20kick&position=30&from_view=search&track=ais&uuid=a946e6bf-af56-432f-b949-a45efd438c4a)
+
 ## Accessibility
 
 ## Technologies Used
