@@ -492,6 +492,7 @@ the selection of only the factor of 4 elements to have the background colour cha
 
 .review-stars {
     grid-area: stars;
+    color: var(--clr-gold);
 }
 
 .review-heading {
