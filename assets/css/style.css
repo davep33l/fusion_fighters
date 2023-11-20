@@ -627,6 +627,7 @@ footer {
            flex properties as they already exist outside the media query */
         flex-direction: column;
         padding: 0 .5rem;
+        height: auto;
     }
 
     #logo {
