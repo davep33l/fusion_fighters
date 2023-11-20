@@ -7,6 +7,10 @@ font-family: 'Philosopher', sans-serif;
 
 /* Root Styles / Variables */
 
+/* Referenced both w3schools and mdn for usage of variables */
+/* w3scheools: https://www.w3schools.com/css/css3_variables.asp */
+/* MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+
 :root {
     --clr-dark: #0f1a20;
     --clr-light: #fffcff;
