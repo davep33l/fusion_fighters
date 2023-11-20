@@ -151,7 +151,7 @@ nav {
     display: block;
 }
 
-/* Main Styles */
+/* || Main Styles */
 main {
     /* Make the main element take up surplus space and push the footer down */
     flex: 1 0 auto;
@@ -166,7 +166,7 @@ section {
     scroll-margin-top: 33px;
 }
 
-/* Hero Section */
+/* || Hero Section */
 
 #hero {
     width: 100%;
@@ -195,7 +195,7 @@ section {
     letter-spacing: 1px;
 }
 
-/* Styles Section */
+/* || Styles Section */
 
 .styles-container {
     display: flex;
@@ -238,7 +238,7 @@ section {
     padding: 1rem 0;
 }
 
-/* Benefits Section */
+/* || Benefits Section */
 
 .benefit-container {
     display: flex;
@@ -259,7 +259,7 @@ section {
     margin-top: .5rem;
 }
 
-/* Instructor Section */
+/* || Instructor Section */
 
 .instructor-container {
     display: flex;
@@ -292,7 +292,7 @@ section {
     max-width: 350px;
 }
 
-/* About Section */
+/* || About Section */
 
 /* I wanted to make an opaque and found this 
 resounce https://coder-coder.com/background-image-opacity/ I edited it to
@@ -323,7 +323,7 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     line-height: 1.5rem;
 }
 
-/* Timetable and pricing section */
+/* || Timetable and pricing section */
 
 #times>p {
     padding: 2rem 1rem;
@@ -448,7 +448,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     color: var(--clr-dark);
 }
 
-/* Reviews Section */
+/* || Reviews Section */
 
 .reviews-container {
     padding: 0 1rem 1rem 1rem;
@@ -518,7 +518,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     list-style-type: none;
 }
 
-/* Contact Section */
+/* || Contact Section */
 
 
 #contact {
@@ -590,7 +590,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     display: inline;
 }
 
-/* Footer Styles */
+/* || Footer Styles */
 footer {
     background-color: var(--clr-dark);
 }
@@ -608,11 +608,11 @@ footer {
     font-size: 2rem;
 }
 
-/* Media queries: Tablets and larger (768px and upwards) */
+/* || Media queries: Tablets and larger (768px and upwards) */
 
 @media screen and (min-width:768px) {
 
-    /* Header Section */
+    /* || Header Section */
     nav {
         position: relative;
         display: block;
@@ -659,7 +659,7 @@ footer {
         scroll-margin-top: 89px;
     }
 
-    /* Hero Section */
+    /* || Hero Section */
 
     #hero-text {
         font-size: 2rem;
@@ -668,7 +668,7 @@ footer {
         left: 4rem;
     }
 
-    /* Benefits Section */
+    /* || Benefits Section */
 
     .benefit-container {
         flex-direction: row;
@@ -691,7 +691,7 @@ footer {
         font-size: 110%;
     }
 
-    /* Instructors Section */
+    /* || Instructors Section */
 
     .instructor-card {
         display: flex;
@@ -710,6 +710,8 @@ footer {
     .reverse-order img {
         order: 2;
     }
+
+    /* || Contact Section */
 
     .contact-container {
         align-items: flex-start;
@@ -741,7 +743,7 @@ footer {
         scroll-margin-top: 120px;
     }
 
-    /* Styles Section */
+    /* || Styles Section */
     .styles-container {
         flex-direction: row;
         align-items: stretch;
@@ -756,7 +758,7 @@ footer {
         flex: 1;
     }
 
-    /* Instructors Section */
+    /* || Instructors Section */
 
     .instructor-container {
         flex-direction: row;
@@ -774,7 +776,7 @@ footer {
         order: 0;
     }
 
-    /* About Section */
+    /* || About Section */
     .about-text-container {
         max-width: 1400px;
         columns: 3;
@@ -789,7 +791,7 @@ footer {
         padding-bottom: 1rem;
     }
 
-    /* Timetable and pricing section */
+    /* || Timetable and pricing section */
 
     #times>p {
         max-width: 1400px;
@@ -836,7 +838,7 @@ footer {
         color: var(--clr-dark);
     }
 
-    /* Review Section */
+    /* || Review Section */
 
     #reviews {
         min-height: auto;
@@ -855,6 +857,7 @@ footer {
 
 @media screen and (min-width:1200px) {
 
+    /* || Hero Section */
     #hero-text {
         width: 35%;
     }
