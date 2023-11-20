@@ -708,6 +708,10 @@ footer {
     .reverse-order img {
         order: 2;
     }
+
+    .contact-container {
+        align-items: flex-start;
+    }
 }
 
 @media screen and (min-width:992px) {
