@@ -519,6 +519,12 @@ the selection of only the factor of 4 elements to have the background colour cha
 
 /* Contact Section */
 
+
+#contact {
+    background: url(../images/karate-girl-with-black-belt-1920x1280-compressed.webp) no-repeat center center/cover;
+}
+
+
 .contact-container {
     display: flex;
     flex-direction: column;
