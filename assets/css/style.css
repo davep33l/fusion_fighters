@@ -523,7 +523,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem;
+    margin: 1rem 1rem 0 1rem;
 }
 
 .contact-form {
@@ -532,12 +532,13 @@ the selection of only the factor of 4 elements to have the background colour cha
     padding: 2rem 1rem;
     width: 100%;
     max-width: 500px;
-    background-color: var(--clr-gold);
+    background-color: rgba(15, 27, 33, .6);
     border-radius: 5px;
 }
 
 .contact-form label {
     margin-top: .5rem;
+    color: var(--clr-light);
 }
 
 .contact-form input {
@@ -558,6 +559,9 @@ the selection of only the factor of 4 elements to have the background colour cha
     width: fit-content;
     padding: .5rem;
     border: none;
+    background-color: var(--clr-gold);
+    font-size: 1rem;
+    font: inherit;
 }
 
 .address-container {
