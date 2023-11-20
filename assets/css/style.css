@@ -543,12 +543,13 @@ the selection of only the factor of 4 elements to have the background colour cha
 }
 
 .contact-form label {
-    margin-top: .5rem;
+    margin: .5rem 0;
     color: var(--clr-light);
 }
 
 .contact-form input {
     border: none;
+    height: 1.5rem;
 }
 
 .contact-form div {
