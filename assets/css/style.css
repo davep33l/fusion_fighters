@@ -558,7 +558,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     flex-direction: column;
     padding: 2rem 1rem;
     width: 100%;
-    max-width: 500px;
+    max-width: 650px;
     background-color: rgba(15, 27, 33, .6);
     border-radius: 5px;
 }
