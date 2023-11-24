@@ -344,6 +344,11 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     margin: 2rem 1rem;
 }
 
+.times-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
 /* For the next section I used the documentation on MDN to understand
 the css grid a bit more and devised a layout I liked with this in mind
 below are the sources I used to assist my understanding*/
@@ -357,6 +362,7 @@ This next piece of code is pre-tested code away from my main project in order to
 my commits clean */
 
 .times-container {
+    flex: 1;
     display: grid;
     grid-template-areas:
         "day1       day1"
@@ -368,8 +374,7 @@ my commits clean */
         "day3       day3"
         "day3class1 day3class2"
         "day3class3 day3class3";
-    padding: 2rem 1rem;
-    margin: auto;
+    margin: 2rem;
     max-width: 650px;
     text-align: center;
 }
