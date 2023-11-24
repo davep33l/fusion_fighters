@@ -855,6 +855,10 @@ footer {
         max-width: 1400px;
     }
 
+    .review-card {
+        flex: 1;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
