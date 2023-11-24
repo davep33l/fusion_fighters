@@ -313,10 +313,15 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     inset: 0;
 }
 
+.about-text-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
 .about-text-container {
-    padding: 0 1rem 2rem 1rem;
+    /* padding: 0 1rem 2rem 1rem; */
     max-width: 650px;
-    margin: auto;
+    margin: 1rem;
 }
 
 .about-text-container p {
