@@ -302,6 +302,21 @@ section {
     align-items: center;
 }
 
+.instructor-card-text h4 {
+    font-size: 130%;
+}
+
+.instructor-card-text h4::before,
+.instructor-card-text h4::after {
+    content: "     ---     ";
+}
+
+.instructor-card-text h5 {
+    font-size: 110%;
+}
+
+
+
 .instructor-card-text li {
     list-style-type: none;
     text-align: center;
