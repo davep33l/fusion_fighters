@@ -334,8 +334,14 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
 
 /* || Timetable and pricing section */
 
-#times>p {
-    padding: 2rem 1rem;
+.price-container {
+    display: flex;
+    justify-content: center;
+}
+
+.price-info {
+    max-width: 650px;
+    margin: 2rem 1rem;
 }
 
 /* For the next section I used the documentation on MDN to understand
