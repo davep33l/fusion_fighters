@@ -173,26 +173,33 @@ section {
     width: 100%;
     height: 85vh;
     background: url(../images/hero-bg-kneeling-down-martial-artist-1920x1306-compressed-final.webp) no-repeat center center/cover;
-    position: relative;
+    /* position: relative; */
 }
 
-#hero-text {
+.hero-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 650px;
+    height: 100%;
+    padding: 1rem;
+
+}
+
+.hero-text {
+    flex: 1;
     color: var(--clr-light);
     background-color: rgba(67, 80, 88, .3);
     font-size: 120%;
-    width: 80%;
-    position: absolute;
-    padding: 1rem 0;
-    padding-left: 1rem;
-    left: .5rem;
-    bottom: 5%;
+    padding: 1rem;
+    text-align: center;
 }
 
-#hero-text h2 {
+.hero-text h2 {
     color: var(--clr-gold);
 }
 
-#hero-text p {
+.hero-text p {
     letter-spacing: 1px;
 }
 
@@ -682,7 +689,7 @@ footer {
 
     /* || Hero Section */
 
-    #hero-text {
+    .hero-text {
         font-size: 2rem;
         width: 50%;
         bottom: 15%;
@@ -883,7 +890,7 @@ footer {
 @media screen and (min-width:1200px) {
 
     /* || Hero Section */
-    #hero-text {
+    .hero-text {
         width: 35%;
     }
 }
