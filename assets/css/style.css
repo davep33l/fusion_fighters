@@ -247,6 +247,8 @@ section {
     values to give an inset border to each end of the h4 container 
     Source: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
     box-shadow: inset 10px 0 var(--clr-gold), inset -10px 0 var(--clr-gold);
+    font-size: 120%;
+    padding-block: .5rem;
 }
 
 .style-text p {
