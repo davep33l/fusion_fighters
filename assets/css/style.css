@@ -63,6 +63,7 @@ body {
     padding-top: 2rem;
 }
 
+h2,
 h3 {
     font-size: clamp(1.6rem, 8vw, 3.5rem);
     text-align: center;
@@ -173,21 +174,28 @@ section {
     width: 100%;
     height: 85vh;
     background: url(../images/hero-bg-kneeling-down-martial-artist-1920x1306-compressed-final.webp) no-repeat center center/cover;
-    /* position: relative; */
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text-flex-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-text-container {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     max-width: 650px;
     height: 100%;
     padding: 1rem;
-
 }
 
 .hero-text {
-    flex: 1;
+    flex-grow: 1;
     color: var(--clr-light);
     background-color: rgba(67, 80, 88, .3);
     font-size: 120%;
@@ -687,15 +695,6 @@ footer {
         scroll-margin-top: 89px;
     }
 
-    /* || Hero Section */
-
-    .hero-text {
-        font-size: 2rem;
-        width: 50%;
-        bottom: 15%;
-        left: 4rem;
-    }
-
     /* || Benefits Section */
 
     .benefit-container {
@@ -883,14 +882,5 @@ footer {
 
     .review-card {
         flex: 1;
-    }
-
-}
-
-@media screen and (min-width:1200px) {
-
-    /* || Hero Section */
-    .hero-text {
-        width: 35%;
     }
 }
