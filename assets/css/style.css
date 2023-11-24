@@ -695,6 +695,12 @@ footer {
         scroll-margin-top: 89px;
     }
 
+    /* || Hero Section */
+
+    .hero-text-container {
+        max-width: 1400px;
+    }
+
     /* || Benefits Section */
 
     .benefit-container {
