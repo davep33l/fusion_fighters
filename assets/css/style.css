@@ -305,6 +305,10 @@ section {
     font-size: 110%;
 }
 
+.instructor-card__experience-list {
+    padding-top: 1rem;
+}
+
 .instructor-card__experience-list-item {
     list-style-type: none;
     text-align: center;
