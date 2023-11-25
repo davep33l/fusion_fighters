@@ -271,12 +271,12 @@ section {
     margin: 1rem;
 }
 
-.benefit-card h4 {
+.benefit-card__heading {
     border-bottom: 2px solid var(--clr-gold);
     margin-top: 2rem;
 }
 
-.benefit-card p {
+.benefit-card__text {
     margin-top: .5rem;
 }
 
@@ -292,25 +292,25 @@ section {
     margin-top: 2rem;
 }
 
-.instructor-card-text h4 {
+.instructor-card__name {
     font-size: 130%;
 }
 
-.instructor-card-text h4::before,
-.instructor-card-text h4::after {
+.instructor-card__name::before,
+.instructor-card__name::after {
     content: "     ---     ";
 }
 
-.instructor-card-text h5 {
+.instructor-card__martial-art {
     font-size: 110%;
 }
 
-.instructor-card-text li {
+.instructor-card__experience-list-item {
     list-style-type: none;
     text-align: center;
 }
 
-.instructor-card img {
+.instructor-card__image {
     width: 100%;
     height: auto;
     border-radius: 50%;
@@ -690,11 +690,11 @@ footer {
         max-width: 500px;
     }
 
-    .benefit-card h4 {
+    .benefit-card__heading {
         font-size: 150%;
     }
 
-    .benefit-card p {
+    .benefit-card__text {
         font-size: 110%;
     }
 
@@ -714,7 +714,7 @@ footer {
 
     /* The below style is applied to the middle instructor in the html
     it reverses the order of the text and image to give a more visual appeal */
-    .reverse-order img {
+    .reverse-order {
         order: 2;
     }
 
@@ -779,7 +779,7 @@ footer {
         flex-direction: column;
     }
 
-    .reverse-order img {
+    .reverse-order {
         order: 0;
     }
 
