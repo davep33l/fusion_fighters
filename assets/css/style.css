@@ -68,7 +68,6 @@ h3 {
 
 /* Header Styles */
 header {
-    background-color: var(--clr-dark);
     padding: 0 1rem;
     position: fixed;
     z-index: 100;
@@ -86,21 +85,20 @@ header a {
 
 h1 {
     font-family: 'Cinzel', serif;
-    color: var(--clr-gold);
     font-size: 1.5rem;
 }
 
-#menu {
+.menu {
     list-style-type: none;
     letter-spacing: 2px;
 }
 
-#menu li {
+.menu-item {
     margin-bottom: 1em;
     text-align: center;
 }
 
-#menu a {
+.menu-item__link--light {
     color: var(--clr-light);
 }
 
@@ -166,7 +164,7 @@ section {
 
 /* || Hero Section */
 
-#hero {
+.hero-section {
     width: 100%;
     height: 85vh;
     background: url(../images/hero-bg-kneeling-down-martial-artist-1920x1306-compressed-final.webp) no-repeat center center/cover;
@@ -311,8 +309,6 @@ section {
     font-size: 110%;
 }
 
-
-
 .instructor-card-text li {
     list-style-type: none;
     text-align: center;
@@ -333,11 +329,11 @@ my requirements and searched on MDN for a short hand for the top, middle, bottom
 properties to enable me to use inset:0; 
 MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
 
-#about {
+.about-section {
     position: relative;
 }
 
-#about::before {
+.about-section::before {
     content: "";
     background: url(../images/about-background-gym-image-1920x1281-compressed.webp) no-repeat center center/cover;
     opacity: .15;
@@ -569,7 +565,7 @@ the selection of only the factor of 4 elements to have the background colour cha
 /* || Contact Section */
 
 
-#contact {
+.contact-section {
     background: url(../images/karate-girl-with-black-belt-1920x1280-compressed.webp) no-repeat 70% center/cover;
 }
 
@@ -643,7 +639,7 @@ footer {
     background-color: var(--clr-dark);
 }
 
-#socials {
+.socials-section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -651,7 +647,7 @@ footer {
     list-style-type: none;
 }
 
-#socials i {
+.socials-section i {
     color: var(--clr-light);
     font-size: 2rem;
 }
@@ -677,17 +673,17 @@ footer {
         height: auto;
     }
 
-    #logo {
+    .logo {
         font-size: 2.5rem;
     }
 
-    #menu {
+    .menu {
         display: flex;
         padding: .5rem 0;
         font-size: 1rem;
     }
 
-    #menu li {
+    .menu-item {
         padding: 0 1rem;
         margin-bottom: 0;
     }
@@ -766,15 +762,15 @@ footer {
 
 @media screen and (min-width:992px) {
 
-    #menu a:hover {
+    .menu a:hover {
         border-bottom: 1px solid var(--clr-gold);
     }
 
-    #logo {
+    .logo {
         font-size: 3.5rem;
     }
 
-    #menu {
+    .menu {
         font-size: 1.5rem;
     }
 
@@ -839,7 +835,7 @@ footer {
 
     /* || Timetable and pricing section */
 
-    #times>p {
+    .times-section>p {
         max-width: 1400px;
         margin: auto;
     }
@@ -886,7 +882,7 @@ footer {
 
     /* || Review Section */
 
-    #reviews {
+    .reviews {
         min-height: auto;
     }
 
