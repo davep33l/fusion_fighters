@@ -536,6 +536,7 @@ the selection of only the factor of 4 elements to have the background colour cha
 }
 
 .review-text {
+    padding-top: 1rem;
     grid-area: review;
 }
 
