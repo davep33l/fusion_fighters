@@ -338,12 +338,12 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     inset: 0;
 }
 
-.about-text-container {
+.about-text {
     max-width: 650px;
     margin: 1rem;
 }
 
-.about-text-container p {
+.about-text__content {
     margin-top: 1rem;
     line-height: 1.5rem;
 }
@@ -784,7 +784,7 @@ footer {
     }
 
     /* || About Section */
-    .about-text-container {
+    .about-text {
         max-width: 1400px;
         columns: 3;
         padding-top: 0;
@@ -792,7 +792,7 @@ footer {
         gap: 3rem;
     }
 
-    .about-text-container p {
+    .about-text__content {
         padding-top: 0;
         margin-top: 0;
         padding-bottom: 1rem;
