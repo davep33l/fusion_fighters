@@ -18,7 +18,7 @@ The owner and chief instructor of the club currently only promotes his club via 
 
 **Research**: Google Trends for MMA searches from 2004 to Oct 2023 shows increase in popularity. Highlighting the mixed interest in martial arts disciplines.
 
-![Google Trends information for the search term MMA between 2004 to Oct 2023](assets/readme/google-trends-mma-search.png)
+![Google Trends information for the search term MMA between 2004 to Oct 2023](readme/google-trends-mma-search.png)
 
 ## Scope
 
