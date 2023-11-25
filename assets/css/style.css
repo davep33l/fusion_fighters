@@ -355,6 +355,12 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     margin: 2rem 1rem;
 }
 
+.text-red {
+    color: var(--clr-red);
+    letter-spacing: 0px;
+    font-size: 120%;
+}
+
 /* For the next section I used the documentation on MDN to understand
 the css grid a bit more and devised a layout I liked with this in mind
 below are the sources I used to assist my understanding*/
