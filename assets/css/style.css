@@ -31,18 +31,20 @@ body {
     color: var(--clr-dark);
 }
 
-#benefits,
-#about,
-#reviews {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+.bg-light {
+    background-color: var(--clr-light);
 }
 
-#styles,
-#instructors,
-#times,
-#contact {
-    background-color: var(--clr-light);
+.bg-dark {
+    background-color: var(--clr-dark);
+}
+
+.text-light {
+    color: var(--clr-light);
+
+}
+
+.text-dark {
     color: var(--clr-dark);
 }
 
