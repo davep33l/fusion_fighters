@@ -102,7 +102,7 @@ I chose the red as it is also a common colour used on martial art belt embroider
 
 I chose a slightly off white as my light colour as this is the main colour for a martial arts gi.
 
-![Colour Palette visualized by Coolers](assets/readme/colour-palette.png)
+![Colour Palette visualized by Coolers](readme/colour-palette.png)
 
 ### Images
 
@@ -166,11 +166,11 @@ Chrome Dev Tools specifically helped with the concurrence of my image sizes and 
 
 HTML was tested using the [W3C HTML Validator](https://validator.w3.org/)
 
-[HTML Test Results](readme/html-validator.png)
+![HTML Test Results](readme/html-validator.png)
 
 CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-[CSS Test Results](readme/css-validator.png)
+![CSS Test Results](readme/css-validator.png)
 
 ## Acknowledgements / Credits
 
