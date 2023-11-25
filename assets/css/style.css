@@ -41,26 +41,22 @@ body {
 
 .text-light {
     color: var(--clr-light);
-
 }
 
 .text-dark {
     color: var(--clr-dark);
 }
 
-#benefits h3,
-#about h3,
-#reviews h3 {
-    color: var(--clr-gold);
+.section-heading {
     padding-top: 2rem;
 }
 
-#styles h3,
-#instructors h3,
-#times h3,
-#contact h3 {
+.section-heading--gold {
+    color: var(--clr-gold);
+}
+
+.section-heading--red {
     color: var(--clr-red);
-    padding-top: 2rem;
 }
 
 h2,
