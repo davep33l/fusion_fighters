@@ -519,12 +519,12 @@ the selection of only the factor of 4 elements to have the background colour cha
 /* Attempt to use BEM methodology to modify the existing review image class */
 .review-image--placeholder-one {
     background: url(../images/review-profile-image-placeholder-1.png) no-repeat center center/cover;
-    box-shadow: 0 0 5px var(--clr-light);
+    box-shadow: 0 0 15px var(--clr-light);
 }
 
 .review-image--placeholder-two {
     background: url(../images/review-profile-image-placeholder-2.png) no-repeat center center/cover;
-    box-shadow: 0 0 5px var(--clr-light);
+    box-shadow: 0 0 15px var(--clr-light);
 }
 
 
