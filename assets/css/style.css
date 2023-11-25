@@ -25,10 +25,40 @@
 /* General Styles */
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     font-family: 'Philosopher', sans-serif;
     color: var(--clr-dark);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex--column {
+    flex-direction: column;
+}
+
+.flex--row {
+    flex-direction: row;
+}
+
+.flex--justify-center {
+    justify-content: center;
+}
+
+.flex--justify-space-even {
+    justify-content: space-evenly;
+}
+
+.flex--justify-space-between {
+    justify-content: space-between;
+}
+
+.flex--align-items-center {
+    align-items: center;
+}
+
+.flex--align-items-end {
+    align-items: flex-end;
 }
 
 .bg-light {
@@ -73,9 +103,6 @@ header {
     z-index: 100;
     width: 100%;
     border-bottom: 1px solid var(--clr-gold);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 50px;
 }
 
@@ -168,21 +195,14 @@ section {
     width: 100%;
     height: 85vh;
     background: url(../images/hero-bg-kneeling-down-martial-artist-1920x1306-compressed-final.webp) no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
 }
 
 .hero-text-flex-container {
     flex: 1;
-    display: flex;
-    justify-content: center;
 }
 
 .hero-text-container {
     flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     max-width: 650px;
     height: 100%;
     padding: 1rem;
@@ -208,9 +228,6 @@ section {
 /* || Styles Section */
 
 .styles-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0 1rem;
     padding-bottom: 2rem;
 }
@@ -224,12 +241,6 @@ section {
 .style-image img {
     width: 100%;
     height: auto;
-}
-
-.style-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .style-text h4 {
@@ -252,15 +263,7 @@ section {
 
 /* || Benefits Section */
 
-.benefits-flex-container {
-    display: flex;
-    justify-content: center;
-}
-
 .benefit-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding-bottom: 2rem;
     max-width: 650px;
     margin: 1rem;
@@ -278,9 +281,6 @@ section {
 /* || Instructor Section */
 
 .instructor-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0 1rem;
     padding-bottom: 2rem;
     width: 100%;
@@ -288,12 +288,6 @@ section {
 
 .instructor-card {
     margin-top: 2rem;
-}
-
-.instructor-card-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .instructor-card-text h4 {
@@ -341,11 +335,6 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
     inset: 0;
 }
 
-.about-text-flex-container {
-    display: flex;
-    justify-content: center;
-}
-
 .about-text-container {
     max-width: 650px;
     margin: 1rem;
@@ -358,19 +347,9 @@ MDN resource: https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
 
 /* || Timetable and pricing section */
 
-.price-container {
-    display: flex;
-    justify-content: center;
-}
-
 .price-info {
     max-width: 650px;
     margin: 2rem 1rem;
-}
-
-.times-flex-container {
-    display: flex;
-    justify-content: center;
 }
 
 /* For the next section I used the documentation on MDN to understand
@@ -553,33 +532,21 @@ the selection of only the factor of 4 elements to have the background colour cha
     color: var(--clr-gold);
 }
 
-.review-stars {
-    display: flex;
-    flex-direction: row;
-}
-
 .review-stars li {
     list-style-type: none;
 }
 
 /* || Contact Section */
 
-
 .contact-section {
     background: url(../images/karate-girl-with-black-belt-1920x1280-compressed.webp) no-repeat 70% center/cover;
 }
 
-
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 1rem 1rem 0 1rem;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
     padding: 2rem 1rem;
     width: 100%;
     max-width: 650px;
@@ -617,8 +584,6 @@ the selection of only the factor of 4 elements to have the background colour cha
 }
 
 .address-container {
-    display: flex;
-    flex-direction: column;
     padding: 2rem 0;
 }
 
@@ -640,9 +605,6 @@ footer {
 }
 
 .socials-section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     padding: 1rem 0;
     list-style-type: none;
 }
