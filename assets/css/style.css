@@ -22,12 +22,7 @@
     box-sizing: border-box;
 }
 
-/* General Styles */
-body {
-    min-height: 100vh;
-    font-family: 'Philosopher', sans-serif;
-    color: var(--clr-dark);
-}
+/* Utility Classes */
 
 .flex {
     display: flex;
@@ -74,6 +69,13 @@ body {
 }
 
 .text-dark {
+    color: var(--clr-dark);
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    font-family: 'Philosopher', sans-serif;
     color: var(--clr-dark);
 }
 
