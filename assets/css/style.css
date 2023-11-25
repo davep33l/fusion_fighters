@@ -234,18 +234,18 @@ section {
     padding-bottom: 2rem;
 }
 
-.style-card {
+.styles-container__card {
     max-width: 500px;
     margin-top: 2rem;
     background-color: rgba(67, 80, 88, 0.2);
 }
 
-.style-image img {
+.styles-container__card-image {
     width: 100%;
     height: auto;
 }
 
-.style-text h4 {
+.styles-container__card-heading {
     text-align: center;
     background-color: var(--clr-dark);
     color: var(--clr-light);
@@ -258,7 +258,7 @@ section {
     padding-block: .5rem;
 }
 
-.style-text p {
+.styles-container__card-text {
     width: 90%;
     padding: 1rem 0;
 }
@@ -760,7 +760,7 @@ footer {
         margin-right: auto;
     }
 
-    .style-card {
+    .styles-container__card {
         flex: 1;
     }
 
