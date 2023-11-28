@@ -574,7 +574,6 @@ the selection of only the factor of 4 elements to have the background colour cha
     width: 100%;
     max-width: 650px;
     background-color: rgba(15, 27, 33, .8);
-    border-radius: 5px;
 }
 
 .contact-form label {
