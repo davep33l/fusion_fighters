@@ -611,6 +611,7 @@ the selection of only the factor of 4 elements to have the background colour cha
     padding: 2rem;
     background-color: rgba(15, 27, 33, .8);
     color: var(--clr-light);
+    width: 100%;
 }
 
 .contact-address li {
