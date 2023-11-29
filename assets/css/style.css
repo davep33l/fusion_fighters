@@ -642,6 +642,59 @@ footer {
     font-size: 2rem;
 }
 
+/* 404 Redirect Page */
+
+.redirect-page-container {
+    height: 100vh;
+    padding-inline: 1rem;
+    background: url(../images/hero-bg-2-kneeling-down-martial-artist-1920x1280-compressed-final.webp) no-repeat center center/cover;
+}
+
+.redirect-page-heading {
+    font-size: 5rem;
+    color: var(--clr-light);
+}
+
+.redirect-page-text {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: rgba(255, 210, 61, 0.9);
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    font-size: 2rem;
+}
+
+.redirect-page-link {
+    margin-top: 2rem;
+    color: var(--clr-dark);
+    background-color: rgba(255, 210, 61, 0.9);
+    padding: 1rem;
+}
+
+/* Success/Thank you Page */
+/* Re-used the same styles as I had for the 404 page */
+.success-page-container {
+    height: 100vh;
+    padding-inline: 1rem;
+    background: url(../images/hero-bg-3-blackbelt-martial-artist.webp) no-repeat center center/cover;
+}
+
+.success-page-text {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: rgba(255, 210, 61, 0.9);
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    font-size: 2rem;
+}
+
+.success-page-link {
+    margin-top: 2rem;
+    color: var(--clr-dark);
+    background-color: rgba(255, 210, 61, 0.9);
+    padding: 1rem;
+}
+
 /* || Media queries: Tablets and larger (768px and upwards) */
 
 @media screen and (min-width:768px) {
@@ -751,59 +804,6 @@ footer {
         read text in the middle of the screen. Which is better UX */
         align-items: flex-end;
     }
-}
-
-/* 404 Redirect Page */
-
-.redirect-page-container {
-    height: 100vh;
-    padding-inline: 1rem;
-    background: url(../images/hero-bg-2-kneeling-down-martial-artist-1920x1280-compressed-final.webp) no-repeat center center/cover;
-}
-
-.redirect-page-heading {
-    font-size: 5rem;
-    color: var(--clr-light);
-}
-
-.redirect-page-text {
-    margin-top: 2rem;
-    text-align: center;
-    background-color: rgba(255, 210, 61, 0.9);
-    padding-block: 2rem;
-    padding-inline: 1rem;
-    font-size: 2rem;
-}
-
-.redirect-page-link {
-    margin-top: 2rem;
-    color: var(--clr-dark);
-    background-color: rgba(255, 210, 61, 0.9);
-    padding: 1rem;
-}
-
-/* Success/Thank you Page */
-/* Re-used the same styles as I had for the 404 page */
-.success-page-container {
-    height: 100vh;
-    padding-inline: 1rem;
-    background: url(../images/hero-bg-3-blackbelt-martial-artist.webp) no-repeat center center/cover;
-}
-
-.success-page-text {
-    margin-top: 2rem;
-    text-align: center;
-    background-color: rgba(255, 210, 61, 0.9);
-    padding-block: 2rem;
-    padding-inline: 1rem;
-    font-size: 2rem;
-}
-
-.success-page-link {
-    margin-top: 2rem;
-    color: var(--clr-dark);
-    background-color: rgba(255, 210, 61, 0.9);
-    padding: 1rem;
 }
 
 @media screen and (min-width:992px) {
