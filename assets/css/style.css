@@ -782,6 +782,30 @@ footer {
     padding: 1rem;
 }
 
+/* Success/Thank you Page */
+/* Re-used the same styles as I had for the 404 page */
+.success-page-container {
+    height: 100vh;
+    padding-inline: 1rem;
+    background: url(../images/hero-bg-3-blackbelt-martial-artist.webp) no-repeat center center/cover;
+}
+
+.success-page-text {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: rgba(255, 210, 61, 0.9);
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    font-size: 2rem;
+}
+
+.success-page-link {
+    margin-top: 2rem;
+    color: var(--clr-dark);
+    background-color: rgba(255, 210, 61, 0.9);
+    padding: 1rem;
+}
+
 @media screen and (min-width:992px) {
 
     .menu a:hover {

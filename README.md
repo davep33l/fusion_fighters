@@ -126,7 +126,10 @@ About Section background image by [Nathan Dumlao](https://unsplash.com/@nate_dum
 
 Review section profile placeholder images by [juicy_fish](https://www.freepik.com/author/juicy-fish) from [Freepik](https://www.freepik.com/free-vector/avatars-circles-glyph-style_77972574.htm#query=profile%20placeholder&position=12&from_view=search&track=ais&uuid=5b1c1e94-1475-4546-9010-864854ff1300). Additional editing to change the colours of the images perfomed by myself using [GIMP](https://www.gimp.org/)
 
-Contact section background image by [master1305](https://www.freepik.com/author/master1305) from [Freepik](https://www.freepik.com/free-photo/karate-girl-with-black-belt_8923768.htm#page=2&query=martial%20arts%20side%20kick&position=30&from_view=search&track=ais&uuid=a946e6bf-af56-432f-b949-a45efd438c4a)
+Contact section background image by [master1305](https://www.freepik.com/author/master1305) from [Freepik](https://www.freepik.com/free-photo/young-girl-karate-costume-outdoor_5783838.htm#page=2&query=martial%20arts&position=5&from_view=search&track=ais&uuid=5527b174-dce7-4115-9814-db3b0d322e8b)
+
+404 redirect page section background image by [Leslie Jones](https://unsplash.com/@les_elizabethj?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+from [Unsplash](https://unsplash.com/photos/person-wearing-black-belt-judo-urBiLDuUhMU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ## Accessibility
 
