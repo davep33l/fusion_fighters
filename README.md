@@ -200,11 +200,25 @@ Chrome Dev Tools specifically helped with the concurrence of my image sizes and 
 
 HTML was tested using the [W3C HTML Validator](https://validator.w3.org/)
 
-![HTML Test Results](readme/html-validator.png)
-
 CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-![CSS Test Results](readme/css-validator.png)
+### Index.html
+
+![HTML Test Results for index.html](readme/html-validator-index.png)
+
+![CSS Test Results for index.html](readme/css-validator-index.png)
+
+### 404.html
+
+![HTML Test Results for 404.html](readme/html-validator-404.png)
+
+![CSS Test Results for 404.html](readme/css-validator-404.png)
+
+### success.html
+
+![HTML Test Results for success.html](readme/html-validator-success.png)
+
+![CSS Test Results for success.html](readme/css-validator-success.png)
 
 ## Acknowledgements / Credits
 
