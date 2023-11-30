@@ -47,7 +47,6 @@ The owner and chief instructor of the club currently only promotes his club via 
 - Navigation links will navigate to different sections on the same page
 - Page flow is like a what, why, who, why, when - which leads the user through a journey of information, with a sign up/contact at the bottom. 
 - Start with Mobile design first in a basic column based view, and improve the layout when expanding screen size
-- Ensure that there is content hinting, which shows the next section at the bottom of the screen
 
 ### Basic Site Map
 
@@ -111,7 +110,7 @@ Fonts for the site were obtained from google-fonts. The fonts chosen were:
 
 ![Cinzel font example](/readme/cinzel.png)
 
-2. [Philosopher](https://fonts.google.com/?query=philosopher)
+2. [Philosopher](https://fonts.google.com/?query=philosopher) - which falls back to a basic sans serif font if import fails
 
 ![Philosopher font example](/readme/philosopher.png)
 
@@ -290,8 +289,8 @@ CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-v
 |<ul><li>index.html</li></ul>|Contact Section|Chrome Dev Tools (Responsive mode)|<768px|Responsiveness|Test that the background image does not distract from the form|Successful|
 |<ul><li>index.html</li></ul>|Contact Section|Chrome Dev Tools (Responsive mode)|<768px|Responsiveness|Test that the form grows in size with the screen|Successful|
 |<ul><li>index.html</li></ul>|Contact Section|Chrome Dev Tools (Responsive mode)|>=768px|Responsiveness|Test that the form grows in size with the screen to a max width and starts to move to the right for better reading and the image starts to show on the right|Successful|
-|<ul><li>index.html</li></ul>|Contact Section|Chrome Dev Tools (Responsive mode)|<768px|Test that the address container increases in size and text remains on the left|Successful|
-|<ul><li>index.html</li></ul>|Contact Section|Chrome Dev Tools (Responsive mode)|>=768px|Test that the address container increases in size and the text remains on to the left|Successful|
+|<ul><li>index.html</li></ul>|Contact Section|Chrome Dev Tools (Responsive mode)|<768px|Responsiveness|Test that the address container increases in size and text remains on the left|Successful|
+|<ul><li>index.html</li></ul>|Contact Section|Chrome Dev Tools (Responsive mode)|>=768px|Responsiveness|Test that the address container increases in size and the text remains on to the left|Successful|
 |<ul><li>index.html</li><li>404.html</li><li>success.html</li></ul>|Footer/Socials|Chrome Dev Tools (Responsive mode)|N/A|Responsiveness|Test that the social icons spread out evenly as the screen size increases|Successful|
 
 
@@ -353,3 +352,5 @@ Please see [Images](#images) section for all images obtained from external sourc
 The idea for coolers was from the readme webinar by Kera Cudmore (Thank you if you read this).
 
 I want to thank my mentor for his support throughout this project and for specifically directing me to the BEM methodology. 
+
+I want to thank the makers of the [Flexbox Froggy](https://flexboxfroggy.com/) game as it was fun to play but also helped me understand Flexbox more. 
