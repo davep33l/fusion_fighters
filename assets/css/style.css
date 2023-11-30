@@ -101,7 +101,6 @@ h3 {
     text-align: center;
 }
 
-
 /* Header Styles */
 header {
     padding: 0 1rem;
@@ -531,7 +530,6 @@ the selection of only the factor of 4 elements to have the background colour cha
     background: url(../images/review-profile-image-placeholder-2.png) no-repeat center center/cover;
     box-shadow: 0 0 15px var(--clr-light);
 }
-
 
 .review-stars {
     grid-area: stars;
