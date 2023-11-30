@@ -159,6 +159,11 @@ The images to be used will highlight the colours outlined above, showcasing blac
 
 - The site has a responsive navigation bar for the home page that links to each section of the page. Which also is present on the 404 and success/Thank you page, and redirects back to the home page
 
+## Future Features
+
+I would like to implement a navigation using javascript.
+
+I would like to have a members area with training tips/plans and workout videos
 
 ## Technologies Used
 
