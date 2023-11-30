@@ -263,7 +263,8 @@ CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-v
 |Page|Result|Additional Comments|
 |---|---|---|
 |index.html|![Wave Testing index.html](/readme/wave-testing-index.png)|First pass of the test highlighted the alt text on one of the styles images being too long. This was corrected and it passed through WAVE with no further Alerts. The Warnings are due to the Navigation, which is the implementation used within the LMS|
-|success.html|![Wave Testing success.html](/readme/wave-testing-success.png)||
+|success.html|![Wave Testing success.html](/readme/wave-testing-success.png)|N/A|
+|404.html|![Wave Testing 404.html](/readme/wave-testing-404.png)|First pass of the wave test highlighted the use of the <p> element instead of a heading tag. I replaced with <h3>. Also highlighted the colour contrast for the 404 <h2>, which I added a background to and changed the font colour. This resulted in no further alerts.|
 
 
 ### Manual Testing (Visual Features)
