@@ -119,7 +119,7 @@ Fonts for the site were obtained from google-fonts. The fonts chosen were:
 
 I took inspiration for my colours from what Martial Artist wear. That being the Gi and the Black Belt. I used the coolers website to visualize these all together.
 
-I chose a strong dark colour to symbolize a Black Belt, which is generally the highest level belt a martial arts practitioner can attain. This is not entirly black, as throughout the time as a practitioner, the belt fades giving a slightly blue tinge. 
+I chose a strong dark colour to symbolize a Black Belt, which is generally the highest level belt a martial arts practitioner can attain. This is not entirely black, as throughout the time as a practitioner, the belt fades giving a slightly blue tinge. 
 
 I chose a grey, to be an accent tone to this, and use where I did not require such a dark colour. 
 
@@ -146,14 +146,14 @@ The images to be used will highlight the colours outlined above, showcasing blac
 | Karate Instructor  | [Image](https://unsplash.com/photos/woman-in-white-long-sleeve-shirt-and-gray-pants-wearing-brown-hat-o59vMsBuuSg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Thao Lee](https://unsplash.com/@h4x0r3?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Unsplash](https://unsplash.com)  |   |
 | Brazilian Jiu-Jitsu Instructor  | [Image](https://unsplash.com/photos/man-in-white-button-up-long-sleeve-shirt-holding-black-and-red-skateboard-cVLOqm8sSXc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [jahir martinez](https://unsplash.com/@jahirmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Unsplash](https://unsplash.com) |   |
 | About Section Background  | [Image](https://unsplash.com/photos/people-sitting-on-floor-in-front-of-white-wall-DT3bb-KDAus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Unsplash](https://unsplash.com)  |   |
-| Review Section Profile  | [Image](https://www.freepik.com/free-vector/avatars-circles-glyph-style_77972574.htm#query=profile%20placeholder&position=12&from_view=search&track=ais&uuid=5b1c1e94-1475-4546-9010-864854ff1300)  | [juicy_fish](https://www.freepik.com/author/juicy-fish)  | [Freepik](https://www.freepik.com/)  | Additional editing to change the colours of the images perfomed by myself using [GIMP](https://www.gimp.org/)  |
+| Review Section Profile  | [Image](https://www.freepik.com/free-vector/avatars-circles-glyph-style_77972574.htm#query=profile%20placeholder&position=12&from_view=search&track=ais&uuid=5b1c1e94-1475-4546-9010-864854ff1300)  | [juicy_fish](https://www.freepik.com/author/juicy-fish)  | [Freepik](https://www.freepik.com/)  | Additional editing to change the colours of the images performed by myself using [GIMP](https://www.gimp.org/)  |
 | Contact Section Background  | [Image](https://www.freepik.com/free-photo/young-girl-karate-costume-outdoor_5783838.htm#page=2&query=martial%20arts&position=5&from_view=search&track=ais&uuid=5527b174-dce7-4115-9814-db3b0d322e8b)  | [master1305](https://www.freepik.com/author/master1305)  | [Freepik](https://www.freepik.com/)  |   |
 | 404 Redirect Background  | [Image](https://unsplash.com/photos/person-wearing-black-belt-judo-urBiLDuUhMU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Leslie Jones](https://unsplash.com/@les_elizabethj?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Unsplash](https://unsplash.com)  |   |
 | Success / Thank you Background  | [Image](https://unsplash.com/photos/S-bwUNN1hos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Leslie Jones](https://unsplash.com/@les_elizabethj?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)  | [Unsplash](https://unsplash.com)  |   |
 
 ## Features
 
-- The site is fully responsive on a range of devices and screeens ([see testing for evidence](#testing))
+- The site is fully responsive on a range of devices and screens ([see testing for evidence](#testing))
 
 - The site has an interactive form which allows for completion and submission and redirection to a success/Thank you page
 
@@ -175,7 +175,7 @@ This website was created using HTML and CSS.
 
 | What  | Type  | Category  | Purpose  |   
 |---|---|---|---|
-| [Balsamiq](https://balsamiq.com/wireframes/desktop/) | Desktop Software  | Wireframe  | This was used to create the wireframes for this project  |   
+| [Balsamiq](https://balsamiq.com/wireframes/desktop/) | Desktop Software  | Wireframe  | This was used to create the wireframe for this project  |   
 | [Adobe Express](https://www.adobe.com/express/feature/image/resize) | Online Software  | Image Editing  | This was used to resize image where required  |   
 | [tinypng](https://tinypng.com/)  | Online Software  | Image Editing  | This was used to compress images  |   
 | [convertio.co](https://convertio.co/)  | Online Software  | Image Editing  | This was used to convert images to webp format where required  |   
@@ -274,13 +274,13 @@ CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-v
 |<ul><li>index.html</li><li>404.html</li><li>success.html</li></ul>|Header/Nav|Chrome Dev Tools (Responsive mode)|<768px|Responsiveness|Test that the Navigation bar shows a hamburger menu|Successful|
 |<ul><li>index.html</li><li>404.html</li><li>success.html</li></ul>|Header/Nav|Chrome Dev Tools (Responsive mode)|<768px|Responsiveness|Test that clicking the hamburger menu shows the page links|Successful|
 |<ul><li>index.html</li><li>404.html</li><li>success.html</li></ul>|Header/Nav|Chrome Dev Tools (Responsive mode)|<768px|Responsiveness|Test that clicking the cross icon closes the page links|Successful|
-|<ul><li>index.html</li><li>404.html</li><li>success.html</li></ul>|Header/Nav|Chrome Dev Tools (Responsive mode)|>=768px|Responsiveness|Test that the Naviagtion hides the hamburger menu and displays the Logo and full navigation links|Successful|
+|<ul><li>index.html</li><li>404.html</li><li>success.html</li></ul>|Header/Nav|Chrome Dev Tools (Responsive mode)|>=768px|Responsiveness|Test that the Navigation hides the hamburger menu and displays the Logo and full navigation links|Successful|
 |<ul><li>index.html</li></ul>|Styles Section|Chrome Dev Tools (Responsive mode)|<992px|Responsiveness|Test that the style cards grow as the screen size increases and stops at a max width of 500px|Successful|
 |<ul><li>index.html</li></ul>|Styles Section|Chrome Dev Tools (Responsive mode)|>=992px|Responsiveness|Test that the style cards show in a row and grow in proportion with each other as the screen size increases|Successful|
 |<ul><li>index.html</li></ul>|Benefits Section|Chrome Dev Tools (Responsive mode)|N/A|Responsiveness|Test that the Benefits section items show in a column until there is enough space on the screen to show in two columns|Successful|
 |<ul><li>index.html</li></ul>|Instructor Section|Chrome Dev Tools (Responsive mode)|<768px|Responsiveness|Test that the instructor cards are in a central column and increase in size as the screen does|Successful|
-|<ul><li>index.html</li></ul>|Instructor Section|Chrome Dev Tools (Responsive mode)|>=768px & <992px|Responsiveness|Test that the layout of the instructors changes slighly to alternate the images and text for visual appeal|Successful|
-|<ul><li>index.html</li></ul>|Instructor Section|Chrome Dev Tools (Responsive mode)|>=992px|Responsiveness|Test that the instructor cards show in a row (and the order goes back to image first then text second) and increase in size and spreadout to the max width of 1400px|Successful|
+|<ul><li>index.html</li></ul>|Instructor Section|Chrome Dev Tools (Responsive mode)|>=768px & <992px|Responsiveness|Test that the layout of the instructors changes slightly to alternate the images and text for visual appeal|Successful|
+|<ul><li>index.html</li></ul>|Instructor Section|Chrome Dev Tools (Responsive mode)|>=992px|Responsiveness|Test that the instructor cards show in a row (and the order goes back to image first then text second) and increase in size and spread out to the max width of 1400px|Successful|
 |<ul><li>index.html</li></ul>|About Section|Chrome Dev Tools (Responsive mode)|<992px|Responsiveness|Test that the text is responsive and the container increases to match the screen |Successful|
 |<ul><li>index.html</li></ul>|About Section|Chrome Dev Tools (Responsive mode)|>=992px|Responsiveness|Test that the text is responsive and the text shows in multiple columns and stretches to a max width of 1400px |Successful|
 |<ul><li>index.html</li></ul>|Timetable/Pricing Section|Chrome Dev Tools (Responsive mode)|<992px|Responsiveness|Test that the text is in the center and expands to a max-width and that the timetable also expands as the screen size changes and the colours represent the different times |Successful|
@@ -322,7 +322,7 @@ The styles sections has a nice title for each style with some gold decoration sy
 
 The instructor section has 3 strong images with nice complementary colours. 
 
-The background image on the about section is a nice and subtle break from the solid colour backgrounds, and the transparancy is a nice touch of elegance. 
+The background image on the about section is a nice and subtle break from the solid colour backgrounds, and the transparency is a nice touch of elegance. 
 
 The site is nicely broken up into cards and text sections to keep interest and doesn't seem overbearing with too much information. 
 
