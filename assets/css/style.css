@@ -650,7 +650,10 @@ footer {
 
 .redirect-page-heading {
     font-size: 5rem;
-    color: var(--clr-light);
+    color: var(--clr-dark);
+    background-color: rgba(255, 210, 61, 0.9);
+    padding-block: 2rem;
+    padding-inline: 1rem;
 }
 
 .redirect-page-text {

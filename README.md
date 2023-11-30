@@ -258,6 +258,14 @@ CSS was tested using Jigsaw, the [W3C CSS Validator](https://jigsaw.w3.org/css-v
 |<ul><li>index.html</li></ul>|Form|Mobile - iphone SE 2022||<ul><li>Chrome v.119.0.6045.169</li><li>Safari with iOS 17.1.1</li></ul>|Check that form does not submit if information is not added to required fields|Successful|
 |<ul><li>index.html</li></ul>|Form|Mobile - iphone SE 2022||<ul><li>Chrome v.119.0.6045.169</li><li>Safari with iOS 17.1.1</li></ul>|Check that form submits correctly when required information is added and redirects to success.html|Successful|
 
+### WAVE (Web Accessibility Evaluation Tool) Testing
+
+|Page|Result|Additional Comments|
+|---|---|---|
+|index.html|![Wave Testing index.html](/readme/wave-testing-index.png)|First pass of the test highlighted the alt text on one of the styles images being too long. This was corrected and it passed through WAVE with no further Alerts. The Warnings are due to the Navigation, which is the implementation used within the LMS|
+|success.html|![Wave Testing success.html](/readme/wave-testing-success.png)||
+
+
 ### Manual Testing (Visual Features)
 
 |Page|Section|Test Method|Size|Test Category|Test Description|Outcome|
